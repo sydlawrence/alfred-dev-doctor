@@ -1,0 +1,1100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>it.wemakeawesomesh.php</string>
+	<key>connections</key>
+	<dict>
+		<key>1CDD4D10-6313-4AE6-81C5-1B3360F08A68</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>07EB9C43-E054-4292-A39E-CAA0EFDCD3AA</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>208EE3C1-E184-4097-9792-FF809D44F480</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>274DCAB1-B2B5-4CAC-A685-A12696AA1B6C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>356AED01-E011-456B-9231-7D0A73C28D9D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>4FBECBDE-DE6F-4731-B746-A62CB4C85937</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>31B19EDA-E80C-4B5B-B5F3-AE92CA2232A4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>5BD9D32D-393F-4D72-B2C4-944AA6DB3B9A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0B4D6B42-356B-491B-AD57-24483A53ECD9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>626F3862-481A-489E-BBF3-B70FBE498D29</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>63F60794-BB56-4415-9372-BAF974C3A7E1</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>6A9D8DE3-A5C8-4243-8D60-85591A2FA478</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>849F6250-4AFA-470A-BDFC-6255873093A9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>75ECAA6E-EBBD-4801-B59A-31BBE8921BF2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>9A1606F4-8C47-4F48-826B-A808F2FD0904</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>DBD56279-86B0-4BF3-B8D2-EFFE4088AFD0</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>A2339DAE-1240-42BE-A97B-B3C914E30642</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E429FA03-AAE3-4888-8BB1-A9346B5CDACB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>C12469E1-2C1C-45F3-9B73-F1B5059304B1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>BAD284E1-C73B-4D99-AEBA-4B01A4024F66</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>C7F283D6-7AF4-447C-B3AE-8A2414806372</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>D3971ECE-8137-4855-BEC7-23FF82516DF3</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>D757A534-E31C-4D19-8168-411768ED40D8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>E429FA03-AAE3-4888-8BB1-A9346B5CDACB</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C0A119F6-86AC-45F2-8AC4-DA7EF955A8A3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>ED2574D4-3617-4F78-BEAB-294390C479E2</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>F18E3625-DBFE-4291-9A2A-A072AF57AAF4</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>FAC95FEC-32B0-4455-9D61-4EB52880A4CD</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Syd Lawrence</string>
+	<key>description</key>
+	<string>Get suggestions from web developer documentation</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Web Dev Suggest</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>keyword</key>
+				<string>jq</string>
+				<key>runningsubtext</key>
+				<string>searching, please wait</string>
+				<key>script</key>
+				<string>$query = "{query}";
+
+$data = file_get_contents("data.jquery.json");
+$type = "jQuery";
+
+require_once('search.php');</string>
+				<key>subtext</key>
+				<string>Enter a method / object / function</string>
+				<key>title</key>
+				<string>Search jQuery Docs</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>356AED01-E011-456B-9231-7D0A73C28D9D</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>keyword</key>
+				<string>erlang</string>
+				<key>script</key>
+				<string>$query = "{query}";
+
+$data = file_get_contents("data.erlang.json");
+$type = "erlang";
+
+require_once('search.php');
+
+</string>
+				<key>subtext</key>
+				<string>Search docs</string>
+				<key>title</key>
+				<string>Search erlang docs</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>F18E3625-DBFE-4291-9A2A-A072AF57AAF4</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>output</key>
+				<integer>0</integer>
+				<key>removeextension</key>
+				<false/>
+				<key>sticky</key>
+				<false/>
+				<key>text</key>
+				<string>Currently updating, this may take a few minutes</string>
+				<key>title</key>
+				<string>Web Dev Suggest</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>C12469E1-2C1C-45F3-9B73-F1B5059304B1</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>36</integer>
+				<key>keyword</key>
+				<string>php</string>
+				<key>runningsubtext</key>
+				<string>Retrieving search suggestions ...</string>
+				<key>script</key>
+				<string>$query = "{query}";
+
+$data = file_get_contents("data.php.json");
+$type = "PHP";
+
+require_once('search.php');</string>
+				<key>subtext</key>
+				<string>With search suggestions</string>
+				<key>title</key>
+				<string>Search PHP Docs</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>63F60794-BB56-4415-9372-BAF974C3A7E1</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>flask</string>
+				<key>text</key>
+				<string>Search flask api</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>4FBECBDE-DE6F-4731-B746-A62CB4C85937</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>plusspaces</key>
+				<false/>
+				<key>url</key>
+				<string>http://developer.android.com/guide/components/index.html#q={query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>DBD56279-86B0-4BF3-B8D2-EFFE4088AFD0</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>keyword</key>
+				<string>py</string>
+				<key>script</key>
+				<string>$query = "{query}";
+
+$data = file_get_contents("data.python.json");
+$type = "python";
+
+require_once('search.php');</string>
+				<key>title</key>
+				<string>Search python docs</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>274DCAB1-B2B5-4CAC-A685-A12696AA1B6C</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+	do shell script "open '" &amp; q &amp; "'"
+end alfred_script</string>
+				<key>cachescript</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>keyword</key>
+				<string>rails</string>
+				<key>script</key>
+				<string>$query = "{query}";
+
+$data = file_get_contents("data.ror.json");
+$type = "ror";
+
+require_once('search.php');
+
+</string>
+				<key>subtext</key>
+				<string>Search docs</string>
+				<key>title</key>
+				<string>Search Ruby on Rails docs</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>D757A534-E31C-4D19-8168-411768ED40D8</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>plusspaces</key>
+				<false/>
+				<key>url</key>
+				<string>https://www.google.com/search?as_sitesearch=laravel.com%2Fapi%2F&amp;q={query}</string>
+				<key>utf8</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>75ECAA6E-EBBD-4801-B59A-31BBE8921BF2</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>.net</string>
+				<key>text</key>
+				<string>Search .net docs</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>1CDD4D10-6313-4AE6-81C5-1B3360F08A68</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>java</string>
+				<key>text</key>
+				<string>Search java docs</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>5BD9D32D-393F-4D72-B2C4-944AA6DB3B9A</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>plusspaces</key>
+				<false/>
+				<key>url</key>
+				<string>http://search.oracle.com/search/search?q={query}+url%3A%2Fjavase%2F7%2Fdocs</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>0B4D6B42-356B-491B-AD57-24483A53ECD9</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>ios</string>
+				<key>text</key>
+				<string>Search iOS Developer Library</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>4055420A-9659-4812-A5DC-DDB93B4C2320</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>output</key>
+				<integer>0</integer>
+				<key>removeextension</key>
+				<false/>
+				<key>sticky</key>
+				<false/>
+				<key>text</key>
+				<string>All finished, updating :)</string>
+				<key>title</key>
+				<string>Web Dev Suggest</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>C0A119F6-86AC-45F2-8AC4-DA7EF955A8A3</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>update docs</string>
+				<key>subtext</key>
+				<string>go on, you know you want to</string>
+				<key>text</key>
+				<string>Update the documentation</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>A2339DAE-1240-42BE-A97B-B3C914E30642</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>script</key>
+				<string>php updateall.php</string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>E429FA03-AAE3-4888-8BB1-A9346B5CDACB</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>keyword</key>
+				<string>python</string>
+				<key>script</key>
+				<string>$query = "{query}";
+
+$data = file_get_contents("data.python.json");
+$type = "python";
+
+require_once('search.php');</string>
+				<key>title</key>
+				<string>Search python docs</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>BAD284E1-C73B-4D99-AEBA-4B01A4024F66</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>plusspaces</key>
+				<false/>
+				<key>url</key>
+				<string>http://social.msdn.microsoft.com/Search/en-US?query={query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>07EB9C43-E054-4292-A39E-CAA0EFDCD3AA</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>plusspaces</key>
+				<false/>
+				<key>url</key>
+				<string>http://flask.pocoo.org/docs/search/?q={query}</string>
+				<key>utf8</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>31B19EDA-E80C-4B5B-B5F3-AE92CA2232A4</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>keyword</key>
+				<string>html</string>
+				<key>runningsubtext</key>
+				<string>Searching please wait</string>
+				<key>script</key>
+				<string>$query = "{query}";
+
+$data = file_get_contents("data.html.json");
+$type = "HTML";
+
+require_once('search.php');</string>
+				<key>subtext</key>
+				<string>Enter some text</string>
+				<key>title</key>
+				<string>Search HTML Docs</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>626F3862-481A-489E-BBF3-B70FBE498D29</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>keyword</key>
+				<string>c</string>
+				<key>script</key>
+				<string>$query = "{query}";
+
+$data = file_get_contents("data.c.json");
+$type = "c";
+
+require_once('search.php');
+
+</string>
+				<key>title</key>
+				<string>Search c docs</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>C7F283D6-7AF4-447C-B3AE-8A2414806372</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>keyword</key>
+				<string>js</string>
+				<key>runningsubtext</key>
+				<string>Searching please wait</string>
+				<key>script</key>
+				<string>$query = "{query}";
+
+$data = file_get_contents("data.js.json");
+$type = "JS";
+
+require_once('search.php');</string>
+				<key>subtext</key>
+				<string>Search JS Docs</string>
+				<key>title</key>
+				<string>JS Docs</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>6A9D8DE3-A5C8-4243-8D60-85591A2FA478</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>keyword</key>
+				<string>node</string>
+				<key>script</key>
+				<string>$query = "{query}";
+
+$data = file_get_contents("data.nodejs.json");
+$type = "node.js";
+
+require_once('search.php');
+
+</string>
+				<key>subtext</key>
+				<string>Search the docs</string>
+				<key>title</key>
+				<string>Search node.js docs</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>D3971ECE-8137-4855-BEC7-23FF82516DF3</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>keyword</key>
+				<string>jquery</string>
+				<key>runningsubtext</key>
+				<string>Please wait</string>
+				<key>script</key>
+				<string>$query = "{query}";
+
+$data = file_get_contents("data.jquery.json");
+$type = "jQuery";
+
+require_once('search.php');</string>
+				<key>subtext</key>
+				<string>Enter a function / object name</string>
+				<key>title</key>
+				<string>Search jQuery Docs</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>208EE3C1-E184-4097-9792-FF809D44F480</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>plusspaces</key>
+				<false/>
+				<key>url</key>
+				<string>https://developer.apple.com/library/ios/search/?q={query{</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>6978D3B4-BAA7-4A10-B039-A757AE3AD30E</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>keyword</key>
+				<string>haskell</string>
+				<key>script</key>
+				<string>$query = "{query}";
+
+$data = file_get_contents("data.haskell.json");
+$type = "haskell";
+
+require_once('search.php');
+
+</string>
+				<key>subtext</key>
+				<string>Search docs</string>
+				<key>title</key>
+				<string>Search haskell docs</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>ED2574D4-3617-4F78-BEAB-294390C479E2</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>keyword</key>
+				<string>css</string>
+				<key>runningsubtext</key>
+				<string>Please wait</string>
+				<key>script</key>
+				<string>$query = "{query}";
+
+$data = file_get_contents("data.css.json");
+$type = "CSS";
+
+require_once('search.php');</string>
+				<key>subtext</key>
+				<string>Enter some text</string>
+				<key>title</key>
+				<string>Search CSS Docs</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>FAC95FEC-32B0-4455-9D61-4EB52880A4CD</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>android</string>
+				<key>text</key>
+				<string>Search android docs</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>9A1606F4-8C47-4F48-826B-A808F2FD0904</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>laravel</string>
+				<key>text</key>
+				<string>Search Laravel</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>849F6250-4AFA-470A-BDFC-6255873093A9</string>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>07EB9C43-E054-4292-A39E-CAA0EFDCD3AA</key>
+		<dict>
+			<key>ypos</key>
+			<real>2240</real>
+		</dict>
+		<key>0B4D6B42-356B-491B-AD57-24483A53ECD9</key>
+		<dict>
+			<key>ypos</key>
+			<real>2360</real>
+		</dict>
+		<key>1CDD4D10-6313-4AE6-81C5-1B3360F08A68</key>
+		<dict>
+			<key>ypos</key>
+			<real>2240</real>
+		</dict>
+		<key>208EE3C1-E184-4097-9792-FF809D44F480</key>
+		<dict>
+			<key>ypos</key>
+			<real>370</real>
+		</dict>
+		<key>274DCAB1-B2B5-4CAC-A685-A12696AA1B6C</key>
+		<dict>
+			<key>ypos</key>
+			<real>730</real>
+		</dict>
+		<key>31B19EDA-E80C-4B5B-B5F3-AE92CA2232A4</key>
+		<dict>
+			<key>ypos</key>
+			<real>2120</real>
+		</dict>
+		<key>356AED01-E011-456B-9231-7D0A73C28D9D</key>
+		<dict>
+			<key>ypos</key>
+			<real>250</real>
+		</dict>
+		<key>4055420A-9659-4812-A5DC-DDB93B4C2320</key>
+		<dict>
+			<key>ypos</key>
+			<real>2600</real>
+		</dict>
+		<key>4FBECBDE-DE6F-4731-B746-A62CB4C85937</key>
+		<dict>
+			<key>ypos</key>
+			<real>2120</real>
+		</dict>
+		<key>5BD9D32D-393F-4D72-B2C4-944AA6DB3B9A</key>
+		<dict>
+			<key>ypos</key>
+			<real>2360</real>
+		</dict>
+		<key>626F3862-481A-489E-BBF3-B70FBE498D29</key>
+		<dict>
+			<key>ypos</key>
+			<real>490</real>
+		</dict>
+		<key>63F60794-BB56-4415-9372-BAF974C3A7E1</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+		<key>6978D3B4-BAA7-4A10-B039-A757AE3AD30E</key>
+		<dict>
+			<key>ypos</key>
+			<real>2600</real>
+		</dict>
+		<key>6A9D8DE3-A5C8-4243-8D60-85591A2FA478</key>
+		<dict>
+			<key>ypos</key>
+			<real>130</real>
+		</dict>
+		<key>75ECAA6E-EBBD-4801-B59A-31BBE8921BF2</key>
+		<dict>
+			<key>ypos</key>
+			<real>2000</real>
+		</dict>
+		<key>849F6250-4AFA-470A-BDFC-6255873093A9</key>
+		<dict>
+			<key>ypos</key>
+			<real>2000</real>
+		</dict>
+		<key>9A1606F4-8C47-4F48-826B-A808F2FD0904</key>
+		<dict>
+			<key>ypos</key>
+			<real>2480</real>
+		</dict>
+		<key>A2339DAE-1240-42BE-A97B-B3C914E30642</key>
+		<dict>
+			<key>ypos</key>
+			<real>1880</real>
+		</dict>
+		<key>BAD284E1-C73B-4D99-AEBA-4B01A4024F66</key>
+		<dict>
+			<key>ypos</key>
+			<real>850</real>
+		</dict>
+		<key>C0A119F6-86AC-45F2-8AC4-DA7EF955A8A3</key>
+		<dict>
+			<key>ypos</key>
+			<real>1740</real>
+		</dict>
+		<key>C12469E1-2C1C-45F3-9B73-F1B5059304B1</key>
+		<dict>
+			<key>ypos</key>
+			<real>1880</real>
+		</dict>
+		<key>C7F283D6-7AF4-447C-B3AE-8A2414806372</key>
+		<dict>
+			<key>ypos</key>
+			<real>1450</real>
+		</dict>
+		<key>D3971ECE-8137-4855-BEC7-23FF82516DF3</key>
+		<dict>
+			<key>ypos</key>
+			<real>970</real>
+		</dict>
+		<key>D757A534-E31C-4D19-8168-411768ED40D8</key>
+		<dict>
+			<key>ypos</key>
+			<real>1090</real>
+		</dict>
+		<key>DBD56279-86B0-4BF3-B8D2-EFFE4088AFD0</key>
+		<dict>
+			<key>ypos</key>
+			<real>2480</real>
+		</dict>
+		<key>E429FA03-AAE3-4888-8BB1-A9346B5CDACB</key>
+		<dict>
+			<key>ypos</key>
+			<real>1740</real>
+		</dict>
+		<key>ECFF7111-C050-4D7C-B35F-95F1E927139C</key>
+		<dict>
+			<key>ypos</key>
+			<real>1580</real>
+		</dict>
+		<key>ED2574D4-3617-4F78-BEAB-294390C479E2</key>
+		<dict>
+			<key>ypos</key>
+			<real>1210</real>
+		</dict>
+		<key>F18E3625-DBFE-4291-9A2A-A072AF57AAF4</key>
+		<dict>
+			<key>ypos</key>
+			<real>1330</real>
+		</dict>
+		<key>FAC95FEC-32B0-4455-9D61-4EB52880A4CD</key>
+		<dict>
+			<key>ypos</key>
+			<real>610</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>sydlawrence.com</string>
+</dict>
+</plist>
