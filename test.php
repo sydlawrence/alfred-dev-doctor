@@ -1,10 +1,10 @@
 <?php
 
-
-
-$query = "{query}";
+$type = "css";
 $query = "trans";
-$parser = "css";
+
+
 
 require_once('search.php');
 
+$parser->update();
