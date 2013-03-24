@@ -341,16 +341,9 @@
 				<string>Waiting for data through the intertubes</string>
 				<key>script</key>
 				<string>$query = "{query}";
-
-$icon = "C7F283D6-7AF4-447C-B3AE-8A2414806372.png";
-
-
-$data = file_get_contents("data.c.json");
 $type = "c";
 
-require_once('search.php');
-
-</string>
+require_once('search.php');</string>
 				<key>subtext</key>
 				<string>With autosuggest</string>
 				<key>title</key>
@@ -379,10 +372,6 @@ require_once('search.php');
 				<key>script</key>
 				<string>$query = "{query}";
 
-$icon = "274DCAB1-B2B5-4CAC-A685-A12696AA1B6C.png";
-
-
-$data = file_get_contents("data.python.json");
 $type = "python";
 
 require_once('search.php');</string>
@@ -413,12 +402,7 @@ require_once('search.php');</string>
 				<string>Waiting for data through the intertubes</string>
 				<key>script</key>
 				<string>$query = "{query}";
-
-$icon = "626F3862-481A-489E-BBF3-B70FBE498D29.png";
-
-
-$data = file_get_contents("data.html.json");
-$type = "HTML";
+$type = "html";
 
 require_once('search.php');</string>
 				<key>subtext</key>
@@ -448,16 +432,9 @@ require_once('search.php');</string>
 				<string>Waiting for data through the intertubes</string>
 				<key>script</key>
 				<string>$query = "{query}";
+$type = "node";
 
-$icon = "D3971ECE-8137-4855-BEC7-23FF82516DF3.png";
-
-
-$data = file_get_contents("data.nodejs.json");
-$type = "node.js";
-
-require_once('search.php');
-
-</string>
+require_once('search.php');</string>
 				<key>subtext</key>
 				<string>With autosuggest</string>
 				<key>title</key>
@@ -539,11 +516,7 @@ require_once('search.php');
 				<string>Waiting for data through the intertubes</string>
 				<key>script</key>
 				<string>$query = "{query}";
-
-$data = file_get_contents("data.php.json");
-$type = "PHP";
-
-$icon = "63F60794-BB56-4415-9372-BAF974C3A7E1.png";
+$type = "php";
 
 require_once('search.php');</string>
 				<key>subtext</key>
@@ -573,16 +546,9 @@ require_once('search.php');</string>
 				<string>Waiting for data through the intertubes</string>
 				<key>script</key>
 				<string>$query = "{query}";
-
-$icon = "F18E3625-DBFE-4291-9A2A-A072AF57AAF4.png";
-
-
-$data = file_get_contents("data.erlang.json");
 $type = "erlang";
 
-require_once('search.php');
-
-</string>
+require_once('search.php');</string>
 				<key>subtext</key>
 				<string>With autosuggest</string>
 				<key>title</key>
@@ -610,16 +576,9 @@ require_once('search.php');
 				<string>Waiting for data through the intertubes</string>
 				<key>script</key>
 				<string>$query = "{query}";
-
-$icon = "ED2574D4-3617-4F78-BEAB-294390C479E2.png";
-
-
-$data = file_get_contents("data.haskell.json");
 $type = "haskell";
 
-require_once('search.php');
-
-</string>
+require_once('search.php');</string>
 				<key>subtext</key>
 				<string>With autosuggest</string>
 				<key>title</key>
@@ -679,11 +638,7 @@ require_once('search.php');
 				<string>Waiting for data through the intertubes</string>
 				<key>script</key>
 				<string>$query = "{query}";
-
-$icon = "6A9D8DE3-A5C8-4243-8D60-85591A2FA478.png";
-
-$data = file_get_contents("data.js.json");
-$type = "JS";
+$type = "js";
 
 require_once('search.php');</string>
 				<key>subtext</key>
@@ -728,11 +683,6 @@ require_once('search.php');</string>
 				<string>Waiting for data through the intertubes</string>
 				<key>script</key>
 				<string>$query = "{query}";
-
-$icon = "274DCAB1-B2B5-4CAC-A685-A12696AA1B6C.png";
-
-
-$data = file_get_contents("data.python.json");
 $type = "python";
 
 require_once('search.php');</string>
@@ -827,12 +777,7 @@ require_once('search.php');</string>
 				<string>Waiting for data through the intertubes</string>
 				<key>script</key>
 				<string>$query = "{query}";
-
-$icon = "FAC95FEC-32B0-4455-9D61-4EB52880A4CD.png";
-
-
-$data = file_get_contents("data.css.json");
-$type = "CSS";
+$type = "css";
 
 require_once('search.php');</string>
 				<key>subtext</key>
@@ -993,12 +938,7 @@ require_once('search.php');</string>
 				<string>Waiting for data through the intertubes</string>
 				<key>script</key>
 				<string>$query = "{query}";
-
-$icon = "208EE3C1-E184-4097-9792-FF809D44F480.png";
-
-
-$data = file_get_contents("data.jquery.json");
-$type = "jQuery";
+$type = "jquery";
 
 require_once('search.php');</string>
 				<key>subtext</key>
@@ -1028,12 +968,7 @@ require_once('search.php');</string>
 				<string>Waiting for data through the intertubes</string>
 				<key>script</key>
 				<string>$query = "{query}";
-
-$icon = "208EE3C1-E184-4097-9792-FF809D44F480.png";
-
-
-$data = file_get_contents("data.jquery.json");
-$type = "jQuery";
+$type = "jquery";
 
 require_once('search.php');</string>
 				<key>subtext</key>
@@ -1103,7 +1038,32 @@ require_once('search.php');</string>
 				<key>escaping</key>
 				<integer>63</integer>
 				<key>script</key>
-				<string>tell application "System Events"	tell process "Xcode"		-- Activate Xcode if necessary		set frontmost to true				-- Open the Organizer		keystroke "2" using {shift down, command down}		set organizer to window 1				-- Select the Documentation panel if it's not already selected		if the title of organizer is not "Organizer - Documentation" then			click button "Documentation" of tool bar 1 of organizer			delay 0.1			set organizer to window 1		end if				-- Move focus to the search field		set searchField to text field 1 of splitter group 1 of organizer		set searchField's focused to true				-- Clear field		keystroke "a" using command down		keystroke (ASCII character 8)		tell application "System Events" to keystroke "{query}"	end tellend tell</string>
+				<string>tell application "System Events"
+	tell process "Xcode"
+		-- Activate Xcode if necessary
+		set frontmost to true
+
+		-- Open the Organizer
+		keystroke "2" using {shift down, command down}
+		set organizer to window 1
+
+		-- Select the Documentation panel if it's not already selected
+		if the title of organizer is not "Organizer - Documentation" then
+			click button "Documentation" of tool bar 1 of organizer
+			delay 0.1
+			set organizer to window 1
+		end if
+
+		-- Move focus to the search field
+		set searchField to text field 1 of splitter group 1 of organizer
+		set searchField's focused to true
+
+		-- Clear field
+		keystroke "a" using command down
+		keystroke (ASCII character 8)
+		tell application "System Events" to keystroke "{query}"
+	end tell
+end tell</string>
 				<key>type</key>
 				<integer>6</integer>
 			</dict>
@@ -1140,16 +1100,9 @@ require_once('search.php');</string>
 				<string>Waiting for data through the intertubes</string>
 				<key>script</key>
 				<string>$query = "{query}";
+$type = "rails";
 
-$icon = "D757A534-E31C-4D19-8168-411768ED40D8.png";
-
-
-$data = file_get_contents("data.ror.json");
-$type = "ror";
-
-require_once('search.php');
-
-</string>
+require_once('search.php');</string>
 				<key>subtext</key>
 				<string>With autosuggest</string>
 				<key>title</key>

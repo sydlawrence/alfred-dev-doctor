@@ -3,9 +3,8 @@
 
 
 $query = "{query}";
-$query = "str";
-$data = file_get_contents("data.php.json");
-$type = "php";
+$query = "trans";
+$parser = "css";
 
 require_once('search.php');
 

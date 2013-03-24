@@ -5,7 +5,7 @@ $array = array(
     "html",
     "jquery",
     "js",
-    "nodejs",
+    "node",
     "php",
     "python",
     "ror",
@@ -13,6 +13,19 @@ $array = array(
     "erlang",
     "caniuse"
 );
+
+
+
+define("PARSER_URL", "parsers/autosuggest/");
+
+require_once(PARSER_URL."classes/AutoSuggestParser.php");
+
+
+
 foreach ($array as $val) {
-    require_once('update.'.$val.'.php');
+    $parser = ucFirst($val)."Parser";
+
+    require_once(PARSER_URL."classes/".$val."/".$parser.".php");
+    $parser = new $parser;
+    $parser->update();
 }
