@@ -10,7 +10,8 @@ $array = array(
     "python",
     "ror",
     "haskell",
-    "erlang"
+    "erlang",
+    "caniuse"
 );
 foreach ($array as $val) {
     require_once('update.'.$val.'.php');
