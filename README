@@ -1,5 +1,7 @@
 This is an alfred workflow. This means you need Alfred. And you need the alfred powerpack.
 
+This workflow makes it easer to search for development documentation across a wide range of languages and frameworks.
+
 To download a pre packaged workflow, check out the main site: http://wemakeawesomesh.it/alfred-dev-doctor
 
 To create your own parsers for documentation searches, check out
