@@ -61,6 +61,17 @@
 				<string></string>
 			</dict>
 		</array>
+		<key>3D75A4D3-F3C8-4403-B47B-35DD3CD40073</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>FDB3891B-F316-4A13-B806-83132723A33A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
 		<key>4055420A-9659-4812-A5DC-DDB93B4C2320</key>
 		<array>
 			<dict>
@@ -689,6 +700,21 @@ require_once('search.php');</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>plusspaces</key>
+				<false/>
+				<key>url</key>
+				<string>https://www.google.com/search?as_sitesearch=processing.org&amp;as_q={query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>FDB3891B-F316-4A13-B806-83132723A33A</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
@@ -702,6 +728,23 @@ require_once('search.php');</string>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>4055420A-9659-4812-A5DC-DDB93B4C2320</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>processing</string>
+				<key>text</key>
+				<string>Search Processing Docs</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>3D75A4D3-F3C8-4403-B47B-35DD3CD40073</string>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1185,6 +1228,11 @@ require_once('search.php');</string>
 			<key>ypos</key>
 			<real>250</real>
 		</dict>
+		<key>3D75A4D3-F3C8-4403-B47B-35DD3CD40073</key>
+		<dict>
+			<key>ypos</key>
+			<real>3080</real>
+		</dict>
 		<key>4055420A-9659-4812-A5DC-DDB93B4C2320</key>
 		<dict>
 			<key>ypos</key>
@@ -1319,6 +1367,11 @@ require_once('search.php');</string>
 		<dict>
 			<key>ypos</key>
 			<real>610</real>
+		</dict>
+		<key>FDB3891B-F316-4A13-B806-83132723A33A</key>
+		<dict>
+			<key>ypos</key>
+			<real>3080</real>
 		</dict>
 	</dict>
 	<key>webaddress</key>
