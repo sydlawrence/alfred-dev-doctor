@@ -6,7 +6,9 @@ $wf = new Workflows();
 
 $data = json_decode($data);
 
-
+if (!isset($icon)) {
+    $icon = "icon.png";
+}
 
 $query = strtolower($query);
 
@@ -22,7 +24,7 @@ foreach ($data as $key => $result){
     $description = utf8_decode(strip_tags($result->description));
 
     if (strpos(strtolower($value), $query) === 0) {
-        $wf->result( $key.$result->title, $result->url, $type.": ".$result->title, 'Search docs for '.$result->title, 'icon.png'  );
+        $wf->result( $key.$result->title, $result->url, $type.": ".$result->title, 'Search docs for '.$result->title,$icon  );
     }
     else if (strpos(strtolower($value), $query) > 0) {
         $extras[$key] = $result;
@@ -34,12 +36,12 @@ foreach ($data as $key => $result){
 }
 
 foreach ($extras as $key => $value) {
-        $wf->result( $key.$result->title, $result->url, $type.": ".$result->title, 'Search docs for '.$result->title, 'icon.png'  );
+        $wf->result( $key.$result->title, $result->url, $type.": ".$result->title, 'Search docs for '.$result->title, $icon  );
 
 }
 
 foreach ($extras2 as $key => $value) {
-        $wf->result( $key.$result->title, $result->url, $type.": ".$result->title, 'Search docs for '.$result->title, 'icon.png'  );
+        $wf->result( $key.$result->title, $result->url, $type.": ".$result->title, 'Search docs for '.$result->title, $icon  );
 
 }
 

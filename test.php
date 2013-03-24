@@ -3,9 +3,9 @@
 
 
 $query = "{query}";
-
-$data = file_get_contents("nodejs.json");
-$type = "node.js";
+$query = "str";
+$data = file_get_contents("data.php.json");
+$type = "php";
 
 require_once('search.php');
 
