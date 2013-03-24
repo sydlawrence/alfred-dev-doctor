@@ -1,6 +1,6 @@
 <?php
 
-Class NocdeParser extends AutoSuggestParser {
+Class NodeParser extends AutoSuggestParser {
 
     public $display_name = "node";
 

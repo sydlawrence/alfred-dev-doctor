@@ -44,7 +44,7 @@ Class ErlangParser extends AutoSuggestParser {
         $data = utf8_decode($data);
 
         $data = str_replace("'","\"", $data);
-        $data = json_decode($data->query->results->a);
+        $data = json_decode($data);
         $this->addResults($data);
 
 

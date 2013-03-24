@@ -24,7 +24,7 @@ Class PhpParser extends AutoSuggestParser {
 
         $data = file_get_contents("http://dochub.io/data/php-ext.json");
 
-        $data = json_decode($data->query->results->a);
+        $data = json_decode($data);
         $this->addResults($data);
 
         $this->save();

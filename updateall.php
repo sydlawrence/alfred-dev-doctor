@@ -8,7 +8,7 @@ $array = array(
     "node",
     "php",
     "python",
-    "ror",
+    "rails",
     "haskell",
     "erlang",
     "caniuse"
