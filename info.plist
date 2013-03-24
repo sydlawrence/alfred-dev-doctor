@@ -330,16 +330,9 @@
 				<string>Waiting for data through the intertubes</string>
 				<key>script</key>
 				<string>$query = "{query}";
-
-$icon = "C7F283D6-7AF4-447C-B3AE-8A2414806372.png";
-
-
-$data = file_get_contents("data.c.json");
 $type = "c";
 
-require_once('search.php');
-
-</string>
+require_once('search.php');</string>
 				<key>subtext</key>
 				<string>With autosuggest</string>
 				<key>title</key>
@@ -357,17 +350,32 @@ require_once('search.php');
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>plusspaces</key>
-				<false/>
-				<key>url</key>
-				<string>https://github.com/search?q={query}</string>
-				<key>utf8</key>
-				<false/>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>keyword</key>
+				<string>python</string>
+				<key>runningsubtext</key>
+				<string>Waiting for data through the intertubes</string>
+				<key>script</key>
+				<string>$query = "{query}";
+$type = "python";
+
+require_once('search.php');</string>
+				<key>subtext</key>
+				<string>With autosuggest</string>
+				<key>title</key>
+				<string>Search Python Docs</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
+			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>22C5FA7A-69D5-4418-A61F-3DF5BA9EB41E</string>
+			<string>BAD284E1-C73B-4D99-AEBA-4B01A4024F66</string>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -382,12 +390,7 @@ require_once('search.php');
 				<string>Waiting for data through the intertubes</string>
 				<key>script</key>
 				<string>$query = "{query}";
-
-$icon = "626F3862-481A-489E-BBF3-B70FBE498D29.png";
-
-
-$data = file_get_contents("data.html.json");
-$type = "HTML";
+$type = "html";
 
 require_once('search.php');</string>
 				<key>subtext</key>
@@ -417,16 +420,9 @@ require_once('search.php');</string>
 				<string>Waiting for data through the intertubes</string>
 				<key>script</key>
 				<string>$query = "{query}";
+$type = "node";
 
-$icon = "D3971ECE-8137-4855-BEC7-23FF82516DF3.png";
-
-
-$data = file_get_contents("data.nodejs.json");
-$type = "node.js";
-
-require_once('search.php');
-
-</string>
+require_once('search.php');</string>
 				<key>subtext</key>
 				<string>With autosuggest</string>
 				<key>title</key>
@@ -471,11 +467,7 @@ require_once('search.php');
 				<string>Waiting for data through the intertubes</string>
 				<key>script</key>
 				<string>$query = "{query}";
-
-$data = file_get_contents("data.php.json");
-$type = "PHP";
-
-$icon = "63F60794-BB56-4415-9372-BAF974C3A7E1.png";
+$type = "php";
 
 require_once('search.php');</string>
 				<key>subtext</key>
@@ -505,16 +497,9 @@ require_once('search.php');</string>
 				<string>Waiting for data through the intertubes</string>
 				<key>script</key>
 				<string>$query = "{query}";
-
-$icon = "F18E3625-DBFE-4291-9A2A-A072AF57AAF4.png";
-
-
-$data = file_get_contents("data.erlang.json");
 $type = "erlang";
 
-require_once('search.php');
-
-</string>
+require_once('search.php');</string>
 				<key>subtext</key>
 				<string>With autosuggest</string>
 				<key>title</key>
@@ -542,16 +527,9 @@ require_once('search.php');
 				<string>Waiting for data through the intertubes</string>
 				<key>script</key>
 				<string>$query = "{query}";
-
-$icon = "ED2574D4-3617-4F78-BEAB-294390C479E2.png";
-
-
-$data = file_get_contents("data.haskell.json");
 $type = "haskell";
 
-require_once('search.php');
-
-</string>
+require_once('search.php');</string>
 				<key>subtext</key>
 				<string>With autosuggest</string>
 				<key>title</key>
@@ -611,11 +589,7 @@ require_once('search.php');
 				<string>Waiting for data through the intertubes</string>
 				<key>script</key>
 				<string>$query = "{query}";
-
-$icon = "6A9D8DE3-A5C8-4243-8D60-85591A2FA478.png";
-
-$data = file_get_contents("data.js.json");
-$type = "JS";
+$type = "js";
 
 require_once('search.php');</string>
 				<key>subtext</key>
@@ -660,11 +634,6 @@ require_once('search.php');</string>
 				<string>Waiting for data through the intertubes</string>
 				<key>script</key>
 				<string>$query = "{query}";
-
-$icon = "274DCAB1-B2B5-4CAC-A685-A12696AA1B6C.png";
-
-
-$data = file_get_contents("data.python.json");
 $type = "python";
 
 require_once('search.php');</string>
@@ -759,12 +728,7 @@ require_once('search.php');</string>
 				<string>Waiting for data through the intertubes</string>
 				<key>script</key>
 				<string>$query = "{query}";
-
-$icon = "FAC95FEC-32B0-4455-9D61-4EB52880A4CD.png";
-
-
-$data = file_get_contents("data.css.json");
-$type = "CSS";
+$type = "css";
 
 require_once('search.php');</string>
 				<key>subtext</key>
@@ -925,12 +889,7 @@ require_once('search.php');</string>
 				<string>Waiting for data through the intertubes</string>
 				<key>script</key>
 				<string>$query = "{query}";
-
-$icon = "208EE3C1-E184-4097-9792-FF809D44F480.png";
-
-
-$data = file_get_contents("data.jquery.json");
-$type = "jQuery";
+$type = "jquery";
 
 require_once('search.php');</string>
 				<key>subtext</key>
@@ -960,12 +919,7 @@ require_once('search.php');</string>
 				<string>Waiting for data through the intertubes</string>
 				<key>script</key>
 				<string>$query = "{query}";
-
-$icon = "208EE3C1-E184-4097-9792-FF809D44F480.png";
-
-
-$data = file_get_contents("data.jquery.json");
-$type = "jQuery";
+$type = "jquery";
 
 require_once('search.php');</string>
 				<key>subtext</key>
@@ -1072,16 +1026,9 @@ require_once('search.php');</string>
 				<string>Waiting for data through the intertubes</string>
 				<key>script</key>
 				<string>$query = "{query}";
+$type = "rails";
 
-$icon = "D757A534-E31C-4D19-8168-411768ED40D8.png";
-
-
-$data = file_get_contents("data.ror.json");
-$type = "ror";
-
-require_once('search.php');
-
-</string>
+require_once('search.php');</string>
 				<key>subtext</key>
 				<string>With autosuggest</string>
 				<key>title</key>
@@ -1146,37 +1093,17 @@ end alfred_script</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>escaping</key>
-				<integer>63</integer>
-				<key>keyword</key>
-				<string>python</string>
-				<key>runningsubtext</key>
-				<string>Waiting for data through the intertubes</string>
-				<key>script</key>
-				<string>$query = "{query}";
-
-$icon = "274DCAB1-B2B5-4CAC-A685-A12696AA1B6C.png";
-
-
-$data = file_get_contents("data.python.json");
-$type = "python";
-
-require_once('search.php');</string>
-				<key>subtext</key>
-				<string>With autosuggest</string>
-				<key>title</key>
-				<string>Search Python Docs</string>
-				<key>type</key>
-				<integer>1</integer>
-				<key>withspace</key>
-				<true/>
+				<key>plusspaces</key>
+				<false/>
+				<key>url</key>
+				<string>https://github.com/search?q={query}</string>
+				<key>utf8</key>
+				<false/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
+			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>BAD284E1-C73B-4D99-AEBA-4B01A4024F66</string>
+			<string>22C5FA7A-69D5-4418-A61F-3DF5BA9EB41E</string>
 		</dict>
 	</array>
 	<key>readme</key>

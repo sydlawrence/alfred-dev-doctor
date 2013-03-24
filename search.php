@@ -1,5 +1,24 @@
 <?php
+
+
+
+$parser = ucFirst($type)."Parser";
+
+define("PARSER_URL", "parsers/autosuggest/");
+
+require_once(PARSER_URL."classes/AutoSuggestParser.php");
+
+require_once(PARSER_URL."classes/".$type."/".$parser.".php");
+
 require_once('workflows.php');
+
+$parser = new $parser;
+
+$icon = PARSER_URL."classes/".$type."/".$parser->icon;
+
+
+$data = file_get_contents(PARSER_URL."data/".$parser->data_filename);
+
 
 $wf = new Workflows();
 
@@ -24,7 +43,7 @@ foreach ($data as $key => $result){
     $description = utf8_decode(strip_tags($result->description));
 
     if (strpos(strtolower($value), $query) === 0) {
-        $wf->result( $key.$result->title, $result->url, $type.": ".$result->title, 'Search docs for '.$result->title,$icon  );
+        $wf->result( $key.$result->title, $result->url, $type.": ".$result->title, $result->description,$icon  );
     }
     else if (strpos(strtolower($value), $query) > 0) {
         $extras[$key] = $result;
@@ -36,12 +55,12 @@ foreach ($data as $key => $result){
 }
 
 foreach ($extras as $key => $value) {
-        $wf->result( $key.$result->title, $result->url, $type.": ".$result->title, 'Search docs for '.$result->title, $icon  );
+        $wf->result( $key.$result->title, $result->url, $type.": ".$result->title, $result->description, $icon  );
 
 }
 
 foreach ($extras2 as $key => $value) {
-        $wf->result( $key.$result->title, $result->url, $type.": ".$result->title, 'Search docs for '.$result->title, $icon  );
+        $wf->result( $key.$result->title, $result->url, $type.": ".$result->title, $result->description, $icon  );
 
 }
 
