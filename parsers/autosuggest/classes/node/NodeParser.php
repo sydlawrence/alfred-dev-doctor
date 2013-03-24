@@ -10,6 +10,7 @@ Class NodeParser extends AutoSuggestParser {
 
     protected function addResults($arr) {
         foreach ($arr as $result) {
+
             $this->processResult($result);
         }
     }
@@ -36,10 +37,11 @@ Class NodeParser extends AutoSuggestParser {
     }
 
     public function processResult($data) {
+      //$data = (object) $data;
 
       if (isset($data->name)) {
 
-          $url = "http://nodejs.org/api/all.html#all_".seoUrlNode($data->textRaw);
+          $url = "http://nodejs.org/api/all.html#all_".$this->seoUrl($data->textRaw);
           $title = $data->textRaw;
           $description = $data->desc;
 
@@ -74,7 +76,11 @@ Class NodeParser extends AutoSuggestParser {
         $data = file_get_contents("http://nodejs.org/api/all.json");
 
         $data = json_decode($data);
-        $this->addResults($data);
+
+
+
+        $this->processResult($data);
+
 
         $this->save();
     }

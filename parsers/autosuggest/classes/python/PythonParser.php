@@ -12,7 +12,7 @@ Class PythonParser extends AutoSuggestParser {
         foreach ($arr as $key => $val) {
             $title = $val->title;
             $url = $val->url;
-            $description = "";
+            $description = $val->html;
             $this->addResult($url, $title, $description);
 
             foreach ($val->searchableItems as $res) {
