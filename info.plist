@@ -171,6 +171,17 @@
 				<string></string>
 			</dict>
 		</array>
+		<key>97142E52-BD57-4006-B181-9B9C02808D6D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
 		<key>9A1606F4-8C47-4F48-826B-A808F2FD0904</key>
 		<array>
 			<dict>
@@ -457,6 +468,43 @@ require_once('search.php');
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>849F6250-4AFA-470A-BDFC-6255873093A9</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>keyword</key>
+				<string>caniuse</string>
+				<key>runningsubtext</key>
+				<string>Waiting for data through the intertubes</string>
+				<key>script</key>
+				<string>$query = "{query}";
+
+$icon = "97142E52-BD57-4006-B181-9B9C02808D6D.png";
+
+
+$data = file_get_contents("data.c.json");
+$type = "c";
+
+require_once('search.php');
+
+</string>
+				<key>subtext</key>
+				<string>With autosuggest</string>
+				<key>title</key>
+				<string>Search caniuse.com</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>97142E52-BD57-4006-B181-9B9C02808D6D</string>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1292,6 +1340,11 @@ require_once('search.php');</string>
 		<dict>
 			<key>ypos</key>
 			<real>2840</real>
+		</dict>
+		<key>97142E52-BD57-4006-B181-9B9C02808D6D</key>
+		<dict>
+			<key>ypos</key>
+			<real>1560</real>
 		</dict>
 		<key>9A1606F4-8C47-4F48-826B-A808F2FD0904</key>
 		<dict>
