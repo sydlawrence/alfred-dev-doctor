@@ -1,0 +1,7 @@
+*.un~
+*~
+.*.s[a-w][a-z]
+.netrwhist
+Session.vim
+.DS_Store
+debug.php

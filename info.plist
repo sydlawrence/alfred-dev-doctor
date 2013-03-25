@@ -289,6 +289,17 @@
 				<string></string>
 			</dict>
 		</array>
+		<key>F616C229-EB73-46F3-AE5B-BD07D2024DCB</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
 		<key>FAC95FEC-32B0-4455-9D61-4EB52880A4CD</key>
 		<array>
 			<dict>
@@ -364,6 +375,21 @@ require_once('search.php');</string>
 				<key>plusspaces</key>
 				<false/>
 				<key>url</key>
+				<string>https://www.google.co.uk/search?q=site%3Atwitter.github.com%2Fbootstrap+{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>62BDC9F0-3E2D-440B-8032-FD58C4825F65</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>plusspaces</key>
+				<false/>
+				<key>url</key>
 				<string>https://github.com/search?q={query}</string>
 				<key>utf8</key>
 				<false/>
@@ -372,36 +398,6 @@ require_once('search.php');</string>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>22C5FA7A-69D5-4418-A61F-3DF5BA9EB41E</string>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>escaping</key>
-				<integer>63</integer>
-				<key>keyword</key>
-				<string>html</string>
-				<key>runningsubtext</key>
-				<string>Waiting for data through the intertubes</string>
-				<key>script</key>
-				<string>$query = "{query}";
-$type = "html";
-
-require_once('search.php');</string>
-				<key>subtext</key>
-				<string>With autosuggest</string>
-				<key>title</key>
-				<string>Search HTML Docs</string>
-				<key>type</key>
-				<integer>1</integer>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>626F3862-481A-489E-BBF3-B70FBE498D29</string>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -432,6 +428,36 @@ require_once('search.php');</string>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>D3971ECE-8137-4855-BEC7-23FF82516DF3</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>keyword</key>
+				<string>html</string>
+				<key>runningsubtext</key>
+				<string>Waiting for data through the intertubes</string>
+				<key>script</key>
+				<string>$query = "{query}";
+$type = "html";
+
+require_once('search.php');</string>
+				<key>subtext</key>
+				<string>With autosuggest</string>
+				<key>title</key>
+				<string>Search HTML Docs</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>626F3862-481A-489E-BBF3-B70FBE498D29</string>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -980,38 +1006,6 @@ require_once('search.php');</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>android</string>
-				<key>text</key>
-				<string>Search android docs</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>9A1606F4-8C47-4F48-826B-A808F2FD0904</string>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>plusspaces</key>
-				<false/>
-				<key>url</key>
-				<string>http://flask.pocoo.org/docs/search/?q={query}</string>
-				<key>utf8</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>31B19EDA-E80C-4B5B-B5F3-AE92CA2232A4</string>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>escaping</key>
 				<integer>63</integer>
 				<key>script</key>
@@ -1048,6 +1042,38 @@ end tell</string>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
 			<string>EFE05B82-2485-42D3-BBDB-C60D087D49DA</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>plusspaces</key>
+				<false/>
+				<key>url</key>
+				<string>http://flask.pocoo.org/docs/search/?q={query}</string>
+				<key>utf8</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>31B19EDA-E80C-4B5B-B5F3-AE92CA2232A4</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>android</string>
+				<key>text</key>
+				<string>Search android docs</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>9A1606F4-8C47-4F48-826B-A808F2FD0904</string>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1097,6 +1123,34 @@ require_once('search.php');</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>keyword</key>
+				<string>clj</string>
+				<key>script</key>
+				<string>$query = "{query}";
+$type = "clojure";
+
+require_once('search.php');</string>
+				<key>subtext</key>
+				<string>With autosuggest</string>
+				<key>title</key>
+				<string>Search Clojure docs</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>F616C229-EB73-46F3-AE5B-BD07D2024DCB</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>applescript</key>
 				<string>on alfred_script(q)
 	do shell script "open '" &amp; q &amp; "'"
@@ -1125,21 +1179,6 @@ end alfred_script</string>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>4FBECBDE-DE6F-4731-B746-A62CB4C85937</string>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>plusspaces</key>
-				<false/>
-				<key>url</key>
-				<string>https://www.google.co.uk/search?q=site%3Atwitter.github.com%2Fbootstrap+{query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>62BDC9F0-3E2D-440B-8032-FD58C4825F65</string>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1300,7 +1339,7 @@ require_once('search.php');</string>
 		<key>A2339DAE-1240-42BE-A97B-B3C914E30642</key>
 		<dict>
 			<key>ypos</key>
-			<real>1740</real>
+			<real>1780</real>
 		</dict>
 		<key>BAD284E1-C73B-4D99-AEBA-4B01A4024F66</key>
 		<dict>
@@ -1361,6 +1400,11 @@ require_once('search.php');</string>
 		<dict>
 			<key>ypos</key>
 			<real>1330</real>
+		</dict>
+		<key>F616C229-EB73-46F3-AE5B-BD07D2024DCB</key>
+		<dict>
+			<key>ypos</key>
+			<real>1670</real>
 		</dict>
 		<key>FAC95FEC-32B0-4455-9D61-4EB52880A4CD</key>
 		<dict>
