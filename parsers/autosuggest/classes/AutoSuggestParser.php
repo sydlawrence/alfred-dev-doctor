@@ -26,7 +26,7 @@ class AutoSuggestParser {
         echo strtoupper($this->display_name)." DONE\n";
     }
 
-    protected function addResults() {
+    protected function addResults($arr) {
 
     }
 
