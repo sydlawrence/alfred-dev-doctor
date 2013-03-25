@@ -11,7 +11,8 @@ $array = array(
     "rails",
     "haskell",
     "erlang",
-    "caniuse"
+    "caniuse",
+    "ruby"
 );
 
 

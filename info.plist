@@ -61,6 +61,17 @@
 				<string></string>
 			</dict>
 		</array>
+		<key>395489AC-F97D-4427-9E55-36B92E3044B7</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
 		<key>3D75A4D3-F3C8-4403-B47B-35DD3CD40073</key>
 		<array>
 			<dict>
@@ -624,6 +635,34 @@ require_once('search.php');</string>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>ED2574D4-3617-4F78-BEAB-294390C479E2</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>keyword</key>
+				<string>ruby</string>
+				<key>runningsubtext</key>
+				<string>Searching Ruby API</string>
+				<key>script</key>
+				<string>$query = "{query}";
+$type = "ruby";
+
+require_once('search.php');</string>
+				<key>title</key>
+				<string>Search Ruby docs</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>395489AC-F97D-4427-9E55-36B92E3044B7</string>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1304,6 +1343,11 @@ end alfred_script</string>
 			<key>ypos</key>
 			<real>250</real>
 		</dict>
+		<key>395489AC-F97D-4427-9E55-36B92E3044B7</key>
+		<dict>
+			<key>ypos</key>
+			<real>1780</real>
+		</dict>
 		<key>3D75A4D3-F3C8-4403-B47B-35DD3CD40073</key>
 		<dict>
 			<key>ypos</key>
@@ -1387,7 +1431,7 @@ end alfred_script</string>
 		<key>A2339DAE-1240-42BE-A97B-B3C914E30642</key>
 		<dict>
 			<key>ypos</key>
-			<real>1780</real>
+			<real>1890</real>
 		</dict>
 		<key>A6C29D91-5BAC-4B18-A4DF-5E17E04EEB55</key>
 		<dict>
