@@ -15,7 +15,6 @@ Class HtmlParser extends AutoSuggestParser {
             $description = strip_tags(implode($val->sectionHTMLs, ""));
             $description = str_replace("Summary\n", "", $description);
             $this->addResult($url, $title, $description);
-
         }
     }
 

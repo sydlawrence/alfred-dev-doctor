@@ -1,23 +1,14 @@
 <?php
 
-$type = "python";
-$query = "trans";
+$type = "html";
+$query = "wbr";
 
 require_once('search.php');
 
 
 
 
-$url = "http://docs.python.org/library/struct.html#struct_struct.pack";
-
-echo $url;
-
-echo $parser->filter_url($url);
-
-
-
 exit;
-
 
 
 

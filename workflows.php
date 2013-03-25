@@ -14,7 +14,7 @@ class Workflows {
     private $bundle;
     private $path;
     private $home;
-    private $results;
+    public $results;
 
     /**
     * Description:

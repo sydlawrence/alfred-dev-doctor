@@ -37,30 +37,50 @@ $extras = array();
 
 $extras2 = array();
 
+$found = array();
+
+
+
 foreach ($data as $key => $result){
 
-    $value = $result->title;
+
+
+
+    $value = strtolower(trim($result->title));
     $description = utf8_decode(strip_tags($result->description));
 
-    if (strpos(strtolower($value), $query) === 0) {
-        $wf->result( $key.$result->title, $result->url, $type.": ".$result->title, $result->description,$icon  );
+    $new_key = $type.$result->title;
+
+    //if ($value === "wbr") echo 23;
+
+    if (strpos($value, $query) === 0) {
+        if (!isset($found[$value])) {
+            $found[$value] = true;
+            $wf->result( $type.$result->title, $result->url, $result->title, $result->description,$icon  );
+        }
     }
-    else if (strpos(strtolower($value), $query) > 0) {
-        $extras[$key] = $result;
+    else if (strpos($value, $query) > 0) {
+        if (!isset($found[$value])) {
+            $found[$value] = true;
+            $extras[$key] = $result;
+        }
     }
 
     else if (strpos($description, $query) !== false) {
-        $extras2[$key] = $result;
+        if (!isset($found[$value])) {
+            $found[$value] = true;
+            $extras2[$key] = $result;
+        }
     }
 }
 
-foreach ($extras as $key => $value) {
-        $wf->result( $key.$result->title, $result->url, $type.": ".$result->title, $result->description, $icon  );
+foreach ($extras as $key => $result) {
+        $wf->result( $type.$result->title, $result->url, $result->title, $result->description, $icon  );
 
 }
 
-foreach ($extras2 as $key => $value) {
-        $wf->result( $key.$result->title, $result->url, $type.": ".$result->title, $result->description, $icon  );
+foreach ($extras2 as $key => $result) {
+        $wf->result( $type.$result->title, $result->url, $result->title, $result->description, $icon  );
 
 }
 
