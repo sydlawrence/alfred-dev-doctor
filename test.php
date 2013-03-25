@@ -8,8 +8,5 @@ require_once('search.php');
 
 
 
-exit;
-
-
 
 $parser->update();
