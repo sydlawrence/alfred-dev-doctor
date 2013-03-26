@@ -1191,7 +1191,9 @@ require_once('search.php');</string>
 			delay 0.1
 			set organizer to window 1
 		end if
-
+	
+		click radio button 2 of radio group 1 of splitter group 1 of window 1
+	
 		-- Move focus to the search field
 		set searchField to text field 1 of splitter group 1 of organizer
 		set searchField's focused to true
@@ -1241,6 +1243,19 @@ end tell</string>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>9A1606F4-8C47-4F48-826B-A808F2FD0904</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<true/>
+				<key>clipboardtext</key>
+				<string>haml {query}.haml {query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>BEA73019-1705-4534-8CAF-78020F39EEC6</string>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1532,6 +1547,11 @@ require_once('search.php');</string>
 		<dict>
 			<key>ypos</key>
 			<real>850</real>
+		</dict>
+		<key>BEA73019-1705-4534-8CAF-78020F39EEC6</key>
+		<dict>
+			<key>ypos</key>
+			<real>2000</real>
 		</dict>
 		<key>C0A119F6-86AC-45F2-8AC4-DA7EF955A8A3</key>
 		<dict>
