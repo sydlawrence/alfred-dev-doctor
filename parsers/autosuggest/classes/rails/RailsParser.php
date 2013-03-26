@@ -23,7 +23,7 @@ Class RailsParser extends AutoSuggestParser {
             if (strlen($title) > 0) {
                 if (!isset($this->done[$title])) {
                     $this->addResult($url, $title, $description);
-                    $this->done[$title] = $url;
+                    $this->done[$url] = $url;
                 }
             }
         }
