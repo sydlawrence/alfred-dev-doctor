@@ -16,7 +16,7 @@ Class RailsParser extends AutoSuggestParser {
             $title = $string.$val[0];
             $args = $string.$val[3];
             if (strlen($args) > 0) {
-                $title += $args;
+                $title .= $args;
             }
             $url = "http://api.rubyonrails.org/".$val[2];
             $description = $string.$val[1];
