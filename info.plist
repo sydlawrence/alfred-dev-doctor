@@ -300,6 +300,17 @@
 				<string></string>
 			</dict>
 		</array>
+		<key>ECFF7111-C050-4D7C-B35F-95F1E927139C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>EB2D357B-7C1C-4E1F-8104-19DFBD913547</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
 		<key>ED2574D4-3617-4F78-BEAB-294390C479E2</key>
 		<array>
 			<dict>
@@ -542,6 +553,19 @@ require_once('search.php');</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.script</string>
+			<key>uid</key>
+			<string>EBB7A386-7C53-44D4-AF02-8339BA2FADF5</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
@@ -554,7 +578,8 @@ require_once('search.php');</string>
 				<string>$query = "{query}";
 $type = "php";
 
-require_once('search.php');</string>
+require_once('search.php');
+</string>
 				<key>subtext</key>
 				<string>With autosuggest</string>
 				<key>title</key>
@@ -831,6 +856,19 @@ require_once('search.php');</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.script</string>
+			<key>uid</key>
+			<string>0E112A16-2E92-43A7-8833-13CC9AFA5C3E</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
@@ -889,6 +927,21 @@ require_once('search.php');</string>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>5E2CFF02-1544-4B94-AB1A-2DD8F7AC0BEE</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>script</key>
+				<string>php updateall.php</string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.script</string>
+			<key>uid</key>
+			<string>EB2D357B-7C1C-4E1F-8104-19DFBD913547</string>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1408,6 +1461,11 @@ require_once('search.php');</string>
 			<key>ypos</key>
 			<real>2360</real>
 		</dict>
+		<key>0E112A16-2E92-43A7-8833-13CC9AFA5C3E</key>
+		<dict>
+			<key>ypos</key>
+			<real>2240</real>
+		</dict>
 		<key>1830A68B-330A-478D-868E-0462847AA71E</key>
 		<dict>
 			<key>ypos</key>
@@ -1592,6 +1650,16 @@ require_once('search.php');</string>
 		<dict>
 			<key>ypos</key>
 			<real>1740</real>
+		</dict>
+		<key>EB2D357B-7C1C-4E1F-8104-19DFBD913547</key>
+		<dict>
+			<key>ypos</key>
+			<real>1580</real>
+		</dict>
+		<key>EBB7A386-7C53-44D4-AF02-8339BA2FADF5</key>
+		<dict>
+			<key>ypos</key>
+			<real>2120</real>
 		</dict>
 		<key>ECFF7111-C050-4D7C-B35F-95F1E927139C</key>
 		<dict>

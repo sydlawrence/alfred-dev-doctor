@@ -28,5 +28,5 @@ foreach ($array as $val) {
 
     require_once(PARSER_URL."classes/".$val."/".$parser.".php");
     $parser = new $parser;
-    $parser->update();
+    $parser->check_update();
 }

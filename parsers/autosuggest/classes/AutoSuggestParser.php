@@ -9,11 +9,18 @@ class AutoSuggestParser {
         $this->data_filename = "data.".$this->short_name.".json";
     }
 
+    public function check_update() {
+        if ( filemtime(PARSER_URL."data/".$this->data_filename) <= time()-60*60*24*7 ) {
+            $this->update();
+            return "Updated the ".$this->display_name." docs";
+        }
+    }
+
     protected function addResult($url, $title, $description) {
         $this->results[] = array(
             "url" => $url ,
             "title" => $title,
-            "description" => trim(str_replace("\n"," ",strip_tags($description)))
+            "description" =>str_replace("&mdash;","-",html_entity_decode(trim(str_replace("\n"," ",strip_tags($description)))))
         );
     }
 
