@@ -2,9 +2,10 @@ This is an alfred workflow. This means you need Alfred. And you need the alfred 
 
 This workflow makes it easer to search for development documentation across a wide range of languages and frameworks.
 
-To download a pre packaged workflow, check out the main site: http://wemakeawesomesh.it/alfred-dev-doctor
+To download a pre packaged workflow, check out the main site:
+http://wemakeawesomesh.it/alfred-dev-doctor
 
 To create your own parsers for documentation searches, check out
-http://www.reddit.com/r/programming/comments/1awtgx/alfredd_workflow_to_help_discover_docs_for/
+https://github.com/sydlawrence/alfred-dev-doctor/wiki/Creating-a-Parser
 
 Happy Hacking :)
