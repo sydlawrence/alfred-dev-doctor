@@ -611,19 +611,6 @@ require_once('search.php');</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>escaping</key>
-				<integer>63</integer>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.script</string>
-			<key>uid</key>
-			<string>EBB7A386-7C53-44D4-AF02-8339BA2FADF5</string>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
@@ -654,19 +641,6 @@ require_once('search.php');</string>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>1CDD4D10-6313-4AE6-81C5-1B3360F08A68</string>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>escaping</key>
-				<integer>63</integer>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.script</string>
-			<key>uid</key>
-			<string>0E112A16-2E92-43A7-8833-13CC9AFA5C3E</string>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1100,19 +1074,6 @@ end tell</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>autopaste</key>
-				<true/>
-				<key>clipboardtext</key>
-				<string>haml {query}.haml {query}</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>BEA73019-1705-4534-8CAF-78020F39EEC6</string>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
@@ -1201,7 +1162,7 @@ require_once('search.php');</string>
 				<key>script</key>
 				<string>$query = "{$query}";
 $plugin = "browserstack";
-require_once('plugins/'.$plugin.'/plugin.php');
+require_once('plugin.php');
 </string>
 				<key>subtext</key>
 				<string>test &lt;url&gt;</string>
@@ -1562,11 +1523,6 @@ require_once('search.php');</string>
 			<key>ypos</key>
 			<real>2360</real>
 		</dict>
-		<key>0E112A16-2E92-43A7-8833-13CC9AFA5C3E</key>
-		<dict>
-			<key>ypos</key>
-			<real>2240</real>
-		</dict>
 		<key>1830A68B-330A-478D-868E-0462847AA71E</key>
 		<dict>
 			<key>ypos</key>
@@ -1630,7 +1586,7 @@ require_once('search.php');</string>
 		<key>49CEBF49-5045-4AD6-91E0-18BCDB66E15B</key>
 		<dict>
 			<key>ypos</key>
-			<real>3670</real>
+			<real>3570</real>
 		</dict>
 		<key>4FBECBDE-DE6F-4731-B746-A62CB4C85937</key>
 		<dict>
@@ -1727,11 +1683,6 @@ require_once('search.php');</string>
 			<key>ypos</key>
 			<real>850</real>
 		</dict>
-		<key>BEA73019-1705-4534-8CAF-78020F39EEC6</key>
-		<dict>
-			<key>ypos</key>
-			<real>2000</real>
-		</dict>
 		<key>C0A119F6-86AC-45F2-8AC4-DA7EF955A8A3</key>
 		<dict>
 			<key>ypos</key>
@@ -1740,7 +1691,7 @@ require_once('search.php');</string>
 		<key>C12469E1-2C1C-45F3-9B73-F1B5059304B1</key>
 		<dict>
 			<key>ypos</key>
-			<real>1880</real>
+			<real>1890</real>
 		</dict>
 		<key>C7B88296-D588-4559-8661-544F0B0FFED4</key>
 		<dict>
@@ -1776,11 +1727,6 @@ require_once('search.php');</string>
 		<dict>
 			<key>ypos</key>
 			<real>1580</real>
-		</dict>
-		<key>EBB7A386-7C53-44D4-AF02-8339BA2FADF5</key>
-		<dict>
-			<key>ypos</key>
-			<real>2120</real>
 		</dict>
 		<key>ECFF7111-C050-4D7C-B35F-95F1E927139C</key>
 		<dict>
