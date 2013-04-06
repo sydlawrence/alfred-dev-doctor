@@ -10,9 +10,11 @@ class AutoSuggestParser {
     }
 
     public function check_update() {
-        if ( filemtime(PARSER_URL."data/".$this->data_filename) <= time()-60*60*24*7 ) {
+        if (!file_exists(PARSER_URL."data/".$this->data_filename) || filemtime(PARSER_URL."data/".$this->data_filename) <= time()-60*60*24*7 ) {
             $this->update();
             return "Updated the ".$this->display_name." docs";
+        } else {
+            return "No need to update the ".$this->display_name." docs";
         }
     }
 

@@ -1,5 +1,7 @@
 <?php
 
+include("updater.php");
+
 $array = array(
     "css",
     "html",
@@ -12,7 +14,9 @@ $array = array(
     "haskell",
     "erlang",
     "caniuse",
-    "ruby"
+    "ruby",
+    "c",
+    "clojure"
 );
 
 
