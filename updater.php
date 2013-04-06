@@ -63,11 +63,9 @@ function is_update_available() {
   $latest = get_latest_commit_id();
   if ($current_commit_id !== $latest) {
     // set the id
-
     file_put_contents($commit_id_file, $latest);
     return true;
   }
-
   return false;
 }
 
