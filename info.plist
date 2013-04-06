@@ -32,7 +32,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
+				<string>BD05D0F4-CD1A-4964-8A2A-9259C93AFBA8</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -54,7 +54,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
+				<string>BD05D0F4-CD1A-4964-8A2A-9259C93AFBA8</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -65,7 +65,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
+				<string>BD05D0F4-CD1A-4964-8A2A-9259C93AFBA8</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -76,7 +76,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
+				<string>BD05D0F4-CD1A-4964-8A2A-9259C93AFBA8</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -131,7 +131,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
+				<string>BD05D0F4-CD1A-4964-8A2A-9259C93AFBA8</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -142,7 +142,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
+				<string>BD05D0F4-CD1A-4964-8A2A-9259C93AFBA8</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -153,7 +153,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
+				<string>BD05D0F4-CD1A-4964-8A2A-9259C93AFBA8</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -219,7 +219,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
+				<string>BD05D0F4-CD1A-4964-8A2A-9259C93AFBA8</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -260,7 +260,18 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
+				<string>BD05D0F4-CD1A-4964-8A2A-9259C93AFBA8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>BD05D0F4-CD1A-4964-8A2A-9259C93AFBA8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>EB2D357B-7C1C-4E1F-8104-19DFBD913547</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -282,7 +293,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
+				<string>BD05D0F4-CD1A-4964-8A2A-9259C93AFBA8</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -293,7 +304,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
+				<string>BD05D0F4-CD1A-4964-8A2A-9259C93AFBA8</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -304,7 +315,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
+				<string>BD05D0F4-CD1A-4964-8A2A-9259C93AFBA8</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -322,22 +333,11 @@
 				<string></string>
 			</dict>
 		</array>
-		<key>ECFF7111-C050-4D7C-B35F-95F1E927139C</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>EB2D357B-7C1C-4E1F-8104-19DFBD913547</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-			</dict>
-		</array>
 		<key>ED2574D4-3617-4F78-BEAB-294390C479E2</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
+				<string>BD05D0F4-CD1A-4964-8A2A-9259C93AFBA8</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -348,7 +348,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
+				<string>BD05D0F4-CD1A-4964-8A2A-9259C93AFBA8</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -359,7 +359,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
+				<string>BD05D0F4-CD1A-4964-8A2A-9259C93AFBA8</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -370,7 +370,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
+				<string>BD05D0F4-CD1A-4964-8A2A-9259C93AFBA8</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -417,21 +417,6 @@ require_once('search.php');</string>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>D757A534-E31C-4D19-8168-411768ED40D8</string>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>applescript</key>
-				<string>on alfred_script(q)
-	do shell script "open '" &amp; q &amp; "'"
-end alfred_script</string>
-				<key>cachescript</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.applescript</string>
-			<key>uid</key>
-			<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1181,6 +1166,21 @@ require_once('plugin.php');
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>plusspaces</key>
+				<false/>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>BD05D0F4-CD1A-4964-8A2A-9259C93AFBA8</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
@@ -1683,6 +1683,11 @@ require_once('search.php');</string>
 			<key>ypos</key>
 			<real>850</real>
 		</dict>
+		<key>BD05D0F4-CD1A-4964-8A2A-9259C93AFBA8</key>
+		<dict>
+			<key>ypos</key>
+			<real>180</real>
+		</dict>
 		<key>C0A119F6-86AC-45F2-8AC4-DA7EF955A8A3</key>
 		<dict>
 			<key>ypos</key>
@@ -1728,11 +1733,6 @@ require_once('search.php');</string>
 			<key>ypos</key>
 			<real>1580</real>
 		</dict>
-		<key>ECFF7111-C050-4D7C-B35F-95F1E927139C</key>
-		<dict>
-			<key>ypos</key>
-			<real>1580</real>
-		</dict>
 		<key>ED2574D4-3617-4F78-BEAB-294390C479E2</key>
 		<dict>
 			<key>ypos</key>
@@ -1746,7 +1746,7 @@ require_once('search.php');</string>
 		<key>F18E3625-DBFE-4291-9A2A-A072AF57AAF4</key>
 		<dict>
 			<key>ypos</key>
-			<real>1330</real>
+			<real>1430</real>
 		</dict>
 		<key>F616C229-EB73-46F3-AE5B-BD07D2024DCB</key>
 		<dict>
