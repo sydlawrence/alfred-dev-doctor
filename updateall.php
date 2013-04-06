@@ -2,24 +2,18 @@
 
 include("updater.php");
 
-$array = array(
-    "css",
-    "html",
-    "jquery",
-    "js",
-    "node",
-    "php",
-    "python",
-    "rails",
-    "haskell",
-    "erlang",
-    "caniuse",
-    "ruby",
-    "c",
-    "clojure"
+
+$array = array();
+
+$ignore = array(
+    "AutoSuggestParser.php"
 );
 
-
+foreach (scandir("parsers/autosuggest/classes") as $item) {
+    if ($item == '.' || $item == '..') continue;
+    if (in_array($item, $ignore)) continue;
+    $array[] = $item;
+}
 
 define("PARSER_URL", "parsers/autosuggest/");
 
