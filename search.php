@@ -47,7 +47,7 @@ foreach ($data as $key => $result){
 
 
     $value = strtolower(trim($result->title));
-    $description = utf8_decode(strip_tags($result->description));
+    $description = utf8_decode(strip_tags(strtolower($result->description)));
 
     $new_key = $type.$result->title;
 
