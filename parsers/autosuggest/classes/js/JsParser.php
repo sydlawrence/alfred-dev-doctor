@@ -22,7 +22,10 @@ Class JsParser extends AutoSuggestParser {
     public function update() {
 
         $data = file_get_contents("http://dochub.io/data/js-mdn.json");
+        $data = json_decode($data);
+        $this->addResults($data);
 
+        $data = file_get_contents("http://dochub.io/data/dom-mdn.json");
         $data = json_decode($data);
         $this->addResults($data);
 
