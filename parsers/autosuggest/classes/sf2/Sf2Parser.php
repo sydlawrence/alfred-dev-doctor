@@ -17,7 +17,7 @@ Class Sf2Parser extends AutoSuggestParser {
             $this->results[] = array(
                 "url" => sprintf("http://%s/%s/%s", $baseUrl, $this->docVer, $val[2]),
                 "title" => $val[0],
-                "description" => sprintf("%s<br>%s<br>%s", $val[1], $val[3], $val[4])
+                "description" => sprintf("%s\n%s\n%s", $val[1], $val[3], $val[4])
             );
         }
     }
