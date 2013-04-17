@@ -500,6 +500,37 @@ require_once('search.php');</string>
 				<key>escaping</key>
 				<integer>63</integer>
 				<key>keyword</key>
+				<string>python</string>
+				<key>runningsubtext</key>
+				<string>Waiting for data through the intertubes</string>
+				<key>script</key>
+				<string>$query = "{query}";
+
+$type = "python";
+
+require_once('search.php');</string>
+				<key>subtext</key>
+				<string>With autosuggest</string>
+				<key>title</key>
+				<string>Search Python Docs</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>BAD284E1-C73B-4D99-AEBA-4B01A4024F66</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>keyword</key>
 				<string>html</string>
 				<key>runningsubtext</key>
 				<string>Waiting for data through the intertubes</string>
@@ -1578,7 +1609,7 @@ require_once('search.php');</string>
 		<key>208EE3C1-E184-4097-9792-FF809D44F480</key>
 		<dict>
 			<key>ypos</key>
-			<real>370</real>
+			<real>450</real>
 		</dict>
 		<key>22C5FA7A-69D5-4418-A61F-3DF5BA9EB41E</key>
 		<dict>
@@ -1593,7 +1624,7 @@ require_once('search.php');</string>
 		<key>274DCAB1-B2B5-4CAC-A685-A12696AA1B6C</key>
 		<dict>
 			<key>ypos</key>
-			<real>730</real>
+			<real>780</real>
 		</dict>
 		<key>276477B2-9513-4A4A-B76A-5F444DF8C59C</key>
 		<dict>
@@ -1608,7 +1639,7 @@ require_once('search.php');</string>
 		<key>356AED01-E011-456B-9231-7D0A73C28D9D</key>
 		<dict>
 			<key>ypos</key>
-			<real>250</real>
+			<real>340</real>
 		</dict>
 		<key>395489AC-F97D-4427-9E55-36B92E3044B7</key>
 		<dict>
@@ -1653,7 +1684,7 @@ require_once('search.php');</string>
 		<key>626F3862-481A-489E-BBF3-B70FBE498D29</key>
 		<dict>
 			<key>ypos</key>
-			<real>490</real>
+			<real>560</real>
 		</dict>
 		<key>62BDC9F0-3E2D-440B-8032-FD58C4825F65</key>
 		<dict>
@@ -1713,7 +1744,7 @@ require_once('search.php');</string>
 		<key>A0169C24-0256-4ADA-9A7B-EE67B9B58B87</key>
 		<dict>
 			<key>ypos</key>
-			<real>190</real>
+			<real>230</real>
 		</dict>
 		<key>A2339DAE-1240-42BE-A97B-B3C914E30642</key>
 		<dict>
@@ -1728,7 +1759,7 @@ require_once('search.php');</string>
 		<key>BAD284E1-C73B-4D99-AEBA-4B01A4024F66</key>
 		<dict>
 			<key>ypos</key>
-			<real>850</real>
+			<real>890</real>
 		</dict>
 		<key>BD05D0F4-CD1A-4964-8A2A-9259C93AFBA8</key>
 		<dict>
@@ -1758,12 +1789,12 @@ require_once('search.php');</string>
 		<key>D3971ECE-8137-4855-BEC7-23FF82516DF3</key>
 		<dict>
 			<key>ypos</key>
-			<real>970</real>
+			<real>1000</real>
 		</dict>
 		<key>D757A534-E31C-4D19-8168-411768ED40D8</key>
 		<dict>
 			<key>ypos</key>
-			<real>1090</real>
+			<real>1110</real>
 		</dict>
 		<key>DBD56279-86B0-4BF3-B8D2-EFFE4088AFD0</key>
 		<dict>
@@ -1783,7 +1814,7 @@ require_once('search.php');</string>
 		<key>ED2574D4-3617-4F78-BEAB-294390C479E2</key>
 		<dict>
 			<key>ypos</key>
-			<real>1210</real>
+			<real>1220</real>
 		</dict>
 		<key>EFE05B82-2485-42D3-BBDB-C60D087D49DA</key>
 		<dict>
@@ -1803,7 +1834,7 @@ require_once('search.php');</string>
 		<key>FAC95FEC-32B0-4455-9D61-4EB52880A4CD</key>
 		<dict>
 			<key>ypos</key>
-			<real>610</real>
+			<real>670</real>
 		</dict>
 		<key>FDB3891B-F316-4A13-B806-83132723A33A</key>
 		<dict>
