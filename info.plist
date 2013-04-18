@@ -289,6 +289,17 @@
 				<string></string>
 			</dict>
 		</array>
+		<key>BA9343D1-C789-4A16-A361-90A3DEAAF2BE</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>8819557A-EEFB-4745-B29E-AE0F233B29CD</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
 		<key>BAD284E1-C73B-4D99-AEBA-4B01A4024F66</key>
 		<array>
 			<dict>
@@ -723,6 +734,21 @@ require_once('search.php');</string>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>626F3862-481A-489E-BBF3-B70FBE498D29</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>plusspaces</key>
+				<false/>
+				<key>url</key>
+				<string>http://knpbundles.com/search?q={query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>8819557A-EEFB-4745-B29E-AE0F233B29CD</string>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1565,6 +1591,25 @@ require_once('search.php');</string>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
+				<string>knp</string>
+				<key>subtext</key>
+				<string>Community directory of bundles</string>
+				<key>text</key>
+				<string>KnpBundles</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>BA9343D1-C789-4A16-A361-90A3DEAAF2BE</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
 				<string>flask</string>
 				<key>text</key>
 				<string>Search flask api</string>
@@ -1805,6 +1850,11 @@ require_once('search.php');</string>
 			<key>ypos</key>
 			<real>2000</real>
 		</dict>
+		<key>8819557A-EEFB-4745-B29E-AE0F233B29CD</key>
+		<dict>
+			<key>ypos</key>
+			<real>3940</real>
+		</dict>
 		<key>8B237BA2-9686-46CC-A9E1-D8EE94F8D0EA</key>
 		<dict>
 			<key>ypos</key>
@@ -1834,6 +1884,11 @@ require_once('search.php');</string>
 		<dict>
 			<key>ypos</key>
 			<real>3200</real>
+		</dict>
+		<key>BA9343D1-C789-4A16-A361-90A3DEAAF2BE</key>
+		<dict>
+			<key>ypos</key>
+			<real>3940</real>
 		</dict>
 		<key>BAD284E1-C73B-4D99-AEBA-4B01A4024F66</key>
 		<dict>
