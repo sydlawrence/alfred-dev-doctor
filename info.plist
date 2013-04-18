@@ -72,6 +72,17 @@
 				<string></string>
 			</dict>
 		</array>
+		<key>28602741-90DE-478E-A8AD-AF15201891D9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>62814FDB-BA73-4A03-9222-976E3D6822A8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
 		<key>356AED01-E011-456B-9231-7D0A73C28D9D</key>
 		<array>
 			<dict>
@@ -621,6 +632,25 @@ require_once('search.php');</string>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
+				<string>pac</string>
+				<key>subtext</key>
+				<string>PHP package manager repository</string>
+				<key>text</key>
+				<string>Packagist</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>28602741-90DE-478E-A8AD-AF15201891D9</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
 				<string>laravel</string>
 				<key>text</key>
 				<string>Search Laravel</string>
@@ -731,21 +761,6 @@ require_once('search.php');</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>plusspaces</key>
-				<false/>
-				<key>url</key>
-				<string>https://gist.github.com/search?q={query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>592859BB-4688-46D9-A27F-F33D80A7ECF7</string>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
@@ -772,6 +787,36 @@ require_once('search.php');</string>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>D3971ECE-8137-4855-BEC7-23FF82516DF3</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>plusspaces</key>
+				<false/>
+				<key>url</key>
+				<string>https://gist.github.com/search?q={query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>592859BB-4688-46D9-A27F-F33D80A7ECF7</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>plusspaces</key>
+				<false/>
+				<key>url</key>
+				<string>https://packagist.org/search/?q={query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>62814FDB-BA73-4A03-9222-976E3D6822A8</string>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1519,6 +1564,23 @@ require_once('search.php');</string>
 			<dict>
 				<key>argumenttype</key>
 				<integer>0</integer>
+				<key>keyword</key>
+				<string>flask</string>
+				<key>text</key>
+				<string>Search flask api</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>4FBECBDE-DE6F-4731-B746-A62CB4C85937</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
 				<key>escaping</key>
 				<integer>63</integer>
 				<key>keyword</key>
@@ -1543,23 +1605,6 @@ require_once('search.php');</string>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>274DCAB1-B2B5-4CAC-A685-A12696AA1B6C</string>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>flask</string>
-				<key>text</key>
-				<string>Search flask api</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>4FBECBDE-DE6F-4731-B746-A62CB4C85937</string>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1650,6 +1695,11 @@ require_once('search.php');</string>
 			<key>ypos</key>
 			<real>3320</real>
 		</dict>
+		<key>28602741-90DE-478E-A8AD-AF15201891D9</key>
+		<dict>
+			<key>ypos</key>
+			<real>3810</real>
+		</dict>
 		<key>31B19EDA-E80C-4B5B-B5F3-AE92CA2232A4</key>
 		<dict>
 			<key>ypos</key>
@@ -1709,6 +1759,11 @@ require_once('search.php');</string>
 		<dict>
 			<key>ypos</key>
 			<real>560</real>
+		</dict>
+		<key>62814FDB-BA73-4A03-9222-976E3D6822A8</key>
+		<dict>
+			<key>ypos</key>
+			<real>3810</real>
 		</dict>
 		<key>62BDC9F0-3E2D-440B-8032-FD58C4825F65</key>
 		<dict>
