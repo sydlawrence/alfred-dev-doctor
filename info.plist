@@ -322,6 +322,17 @@
 				<string></string>
 			</dict>
 		</array>
+		<key>CB209160-097A-4DF4-AA63-EB05C3BC51A3</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>BD05D0F4-CD1A-4964-8A2A-9259C93AFBA8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
 		<key>D3971ECE-8137-4855-BEC7-23FF82516DF3</key>
 		<array>
 			<dict>
@@ -825,6 +836,37 @@ require_once('search.php');</string>
 				<key>escaping</key>
 				<integer>63</integer>
 				<key>keyword</key>
+				<string>wordpress</string>
+				<key>runningsubtext</key>
+				<string>Waiting for data through the intertubes</string>
+				<key>script</key>
+				<string>$query = "{query}";
+
+$type = "wordpress";
+
+require_once('search.php');</string>
+				<key>subtext</key>
+				<string>With autosuggest</string>
+				<key>title</key>
+				<string>Search WordPress.org Codex</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>CB209160-097A-4DF4-AA63-EB05C3BC51A3</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>keyword</key>
 				<string>erlang</string>
 				<key>runningsubtext</key>
 				<string>Waiting for data through the intertubes</string>
@@ -1312,6 +1354,21 @@ end tell</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>plusspaces</key>
+				<false/>
+				<key>url</key>
+				<string>https://www.google.co.uk/search?q=site%3Atwitter.github.com%2Fbootstrap+{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>62BDC9F0-3E2D-440B-8032-FD58C4825F65</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
@@ -1325,21 +1382,6 @@ end tell</string>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>8B237BA2-9686-46CC-A9E1-D8EE94F8D0EA</string>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>plusspaces</key>
-				<false/>
-				<key>url</key>
-				<string>https://www.google.co.uk/search?q=site%3Atwitter.github.com%2Fbootstrap+{query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>62BDC9F0-3E2D-440B-8032-FD58C4825F65</string>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1411,7 +1453,7 @@ end tell</string>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
-				<string>wordpress</string>
+				<string>xwordpress</string>
 				<key>text</key>
 				<string>Search WordPress.org Codex</string>
 				<key>withspace</key>
@@ -1799,6 +1841,11 @@ end alfred_script</string>
 		<dict>
 			<key>ypos</key>
 			<real>1450</real>
+		</dict>
+		<key>CB209160-097A-4DF4-AA63-EB05C3BC51A3</key>
+		<dict>
+			<key>ypos</key>
+			<real>1330</real>
 		</dict>
 		<key>D3971ECE-8137-4855-BEC7-23FF82516DF3</key>
 		<dict>
