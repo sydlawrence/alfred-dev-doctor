@@ -32,7 +32,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>BD05D0F4-CD1A-4964-8A2A-9259C93AFBA8</string>
+				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -54,7 +54,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>BD05D0F4-CD1A-4964-8A2A-9259C93AFBA8</string>
+				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -65,7 +65,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>BD05D0F4-CD1A-4964-8A2A-9259C93AFBA8</string>
+				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -76,7 +76,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>BD05D0F4-CD1A-4964-8A2A-9259C93AFBA8</string>
+				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -127,22 +127,11 @@
 				<string></string>
 			</dict>
 		</array>
-		<key>5F19CE21-562B-478C-9654-B8852792A5FF</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>BD05D0F4-CD1A-4964-8A2A-9259C93AFBA8</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-			</dict>
-		</array>
 		<key>626F3862-481A-489E-BBF3-B70FBE498D29</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>BD05D0F4-CD1A-4964-8A2A-9259C93AFBA8</string>
+				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -153,7 +142,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>BD05D0F4-CD1A-4964-8A2A-9259C93AFBA8</string>
+				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -164,7 +153,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>BD05D0F4-CD1A-4964-8A2A-9259C93AFBA8</string>
+				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -176,17 +165,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>5E2CFF02-1544-4B94-AB1A-2DD8F7AC0BEE</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-			</dict>
-		</array>
-		<key>743E9AC7-F549-4B6F-B54A-066F75C915B6</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>49CEBF49-5045-4AD6-91E0-18BCDB66E15B</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -230,7 +208,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>BD05D0F4-CD1A-4964-8A2A-9259C93AFBA8</string>
+				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -242,17 +220,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>DBD56279-86B0-4BF3-B8D2-EFFE4088AFD0</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-			</dict>
-		</array>
-		<key>9A65D19A-199C-41BC-8CE0-9C7F2B9ECCA3</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>BD05D0F4-CD1A-4964-8A2A-9259C93AFBA8</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -282,18 +249,18 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>BD05D0F4-CD1A-4964-8A2A-9259C93AFBA8</string>
+				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
 			</dict>
 		</array>
-		<key>BD05D0F4-CD1A-4964-8A2A-9259C93AFBA8</key>
+		<key>C4CD1D89-F028-43EA-9ECD-FB0BB81EB498</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>EB2D357B-7C1C-4E1F-8104-19DFBD913547</string>
+				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -315,18 +282,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>BD05D0F4-CD1A-4964-8A2A-9259C93AFBA8</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-			</dict>
-		</array>
-		<key>CB209160-097A-4DF4-AA63-EB05C3BC51A3</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>BD05D0F4-CD1A-4964-8A2A-9259C93AFBA8</string>
+				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -337,7 +293,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>BD05D0F4-CD1A-4964-8A2A-9259C93AFBA8</string>
+				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -348,7 +304,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>BD05D0F4-CD1A-4964-8A2A-9259C93AFBA8</string>
+				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -366,11 +322,22 @@
 				<string></string>
 			</dict>
 		</array>
+		<key>ECFF7111-C050-4D7C-B35F-95F1E927139C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>EB2D357B-7C1C-4E1F-8104-19DFBD913547</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
 		<key>ED2574D4-3617-4F78-BEAB-294390C479E2</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>BD05D0F4-CD1A-4964-8A2A-9259C93AFBA8</string>
+				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -381,7 +348,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>BD05D0F4-CD1A-4964-8A2A-9259C93AFBA8</string>
+				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -392,7 +359,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>BD05D0F4-CD1A-4964-8A2A-9259C93AFBA8</string>
+				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -403,7 +370,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>BD05D0F4-CD1A-4964-8A2A-9259C93AFBA8</string>
+				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -460,36 +427,6 @@ require_once('search.php');
 				<key>escaping</key>
 				<integer>63</integer>
 				<key>keyword</key>
-				<string>man</string>
-				<key>runningsubtext</key>
-				<string>Waiting for data through the intertubes</string>
-				<key>script</key>
-				<string>$query = "{query}";
-$type = "man";
-
-require_once('search.php');</string>
-				<key>subtext</key>
-				<string>With autosuggest</string>
-				<key>title</key>
-				<string>Search Man Pages</string>
-				<key>type</key>
-				<integer>1</integer>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>9A65D19A-199C-41BC-8CE0-9C7F2B9ECCA3</string>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>escaping</key>
-				<integer>63</integer>
-				<key>keyword</key>
 				<string>js</string>
 				<key>runningsubtext</key>
 				<string>Waiting for data through the intertubes</string>
@@ -511,51 +448,6 @@ require_once('search.php');</string>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>6A9D8DE3-A5C8-4243-8D60-85591A2FA478</string>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>plusspaces</key>
-				<false/>
-				<key>url</key>
-				<string>{query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>BD05D0F4-CD1A-4964-8A2A-9259C93AFBA8</string>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>escaping</key>
-				<integer>127</integer>
-				<key>keyword</key>
-				<string>git</string>
-				<key>runningsubtext</key>
-				<string>Waiting for data through the intertubes</string>
-				<key>script</key>
-				<string>$query = "{query}";
-$type = "git";
-
-require_once('search.php');</string>
-				<key>subtext</key>
-				<string>With autosuggest</string>
-				<key>title</key>
-				<string>Search Git Docs</string>
-				<key>type</key>
-				<integer>1</integer>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>5F19CE21-562B-478C-9654-B8852792A5FF</string>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -836,37 +728,6 @@ require_once('search.php');</string>
 				<key>escaping</key>
 				<integer>63</integer>
 				<key>keyword</key>
-				<string>wordpress</string>
-				<key>runningsubtext</key>
-				<string>Waiting for data through the intertubes</string>
-				<key>script</key>
-				<string>$query = "{query}";
-
-$type = "wordpress";
-
-require_once('search.php');</string>
-				<key>subtext</key>
-				<string>With autosuggest</string>
-				<key>title</key>
-				<string>Search WordPress.org Codex</string>
-				<key>type</key>
-				<integer>1</integer>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>CB209160-097A-4DF4-AA63-EB05C3BC51A3</string>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>escaping</key>
-				<integer>63</integer>
-				<key>keyword</key>
 				<string>erlang</string>
 				<key>runningsubtext</key>
 				<string>Waiting for data through the intertubes</string>
@@ -952,6 +813,21 @@ require_once('search.php');</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+	do shell script "open '" &amp; q &amp; "'"
+end alfred_script</string>
+				<key>cachescript</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>escaping</key>
 				<integer>63</integer>
 				<key>script</key>
@@ -995,6 +871,21 @@ require_once('search.php');</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>script</key>
+				<string>php updateall.php</string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>E429FA03-AAE3-4888-8BB1-A9346B5CDACB</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>lastpathcomponent</key>
 				<false/>
 				<key>onlyshowifquerypopulated</key>
@@ -1014,21 +905,6 @@ require_once('search.php');</string>
 			<string>alfred.workflow.output.notification</string>
 			<key>uid</key>
 			<string>C0A119F6-86AC-45F2-8AC4-DA7EF955A8A3</string>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>escaping</key>
-				<integer>63</integer>
-				<key>script</key>
-				<string>php updateall.php</string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>E429FA03-AAE3-4888-8BB1-A9346B5CDACB</string>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1085,6 +961,50 @@ require_once('search.php');</string>
 			<key>config</key>
 			<dict>
 				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>_ud</string>
+				<key>runningsubtext</key>
+				<string>Waiting for data loading...</string>
+				<key>script</key>
+				<string>$query = "{query}";
+$type = "underscore";
+
+require_once('search.php');
+</string>
+				<key>subtext</key>
+				<string>Search for Methods</string>
+				<key>title</key>
+				<string>Search for UnderscoreJs</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>C4CD1D89-F028-43EA-9ECD-FB0BB81EB498</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<true/>
+				<key>clipboardtext</key>
+				<string>haml {query}.haml {query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>BEA73019-1705-4534-8CAF-78020F39EEC6</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
 				<string>update doc</string>
@@ -1103,6 +1023,19 @@ require_once('search.php');</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.script</string>
+			<key>uid</key>
+			<string>EBB7A386-7C53-44D4-AF02-8339BA2FADF5</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
@@ -1116,6 +1049,19 @@ require_once('search.php');</string>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>849F6250-4AFA-470A-BDFC-6255873093A9</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.script</string>
+			<key>uid</key>
+			<string>0E112A16-2E92-43A7-8833-13CC9AFA5C3E</string>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1167,21 +1113,6 @@ require_once('search.php');</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>plusspaces</key>
-				<false/>
-				<key>url</key>
-				<string>http://social.msdn.microsoft.com/Search/en-US?query={query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>07EB9C43-E054-4292-A39E-CAA0EFDCD3AA</string>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
@@ -1195,6 +1126,21 @@ require_once('search.php');</string>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>1CDD4D10-6313-4AE6-81C5-1B3360F08A68</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>plusspaces</key>
+				<false/>
+				<key>url</key>
+				<string>http://social.msdn.microsoft.com/Search/en-US?query={query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>07EB9C43-E054-4292-A39E-CAA0EFDCD3AA</string>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1453,7 +1399,7 @@ end tell</string>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
-				<string>xwordpress</string>
+				<string>wordpress</string>
 				<key>text</key>
 				<string>Search WordPress.org Codex</string>
 				<key>withspace</key>
@@ -1593,44 +1539,16 @@ end tell</string>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
-				<integer>63</integer>
-				<key>keyword</key>
-				<string>test</string>
-				<key>runningsubtext</key>
-				<string>Please wait...</string>
-				<key>script</key>
-				<string>$query = "{$query}";
-$plugin = "browserstack";
-require_once('plugin.php');
-</string>
-				<key>subtext</key>
-				<string>test &lt;url&gt;</string>
-				<key>title</key>
-				<string>Test a site on browserstack</string>
+				<integer>127</integer>
 				<key>type</key>
-				<integer>1</integer>
+				<integer>0</integer>
 				<key>withspace</key>
 				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>743E9AC7-F549-4B6F-B54A-066F75C915B6</string>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>applescript</key>
-				<string>on alfred_script(q)
-	do shell script "open '" &amp; q &amp; "'"
-end alfred_script</string>
-				<key>cachescript</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.applescript</string>
-			<key>uid</key>
-			<string>49CEBF49-5045-4AD6-91E0-18BCDB66E15B</string>
+			<string>1B73B9B4-4FC1-403C-9E79-CBEC5E7C07C5</string>
 		</dict>
 	</array>
 	<key>readme</key>
@@ -1640,22 +1558,32 @@ end alfred_script</string>
 		<key>07EB9C43-E054-4292-A39E-CAA0EFDCD3AA</key>
 		<dict>
 			<key>ypos</key>
-			<real>2240</real>
+			<real>2460</real>
 		</dict>
 		<key>0B4D6B42-356B-491B-AD57-24483A53ECD9</key>
 		<dict>
 			<key>ypos</key>
-			<real>2360</real>
+			<real>2570</real>
+		</dict>
+		<key>0E112A16-2E92-43A7-8833-13CC9AFA5C3E</key>
+		<dict>
+			<key>ypos</key>
+			<real>2240</real>
 		</dict>
 		<key>1830A68B-330A-478D-868E-0462847AA71E</key>
 		<dict>
 			<key>ypos</key>
-			<real>2960</real>
+			<real>3120</real>
+		</dict>
+		<key>1B73B9B4-4FC1-403C-9E79-CBEC5E7C07C5</key>
+		<dict>
+			<key>ypos</key>
+			<real>3670</real>
 		</dict>
 		<key>1CDD4D10-6313-4AE6-81C5-1B3360F08A68</key>
 		<dict>
 			<key>ypos</key>
-			<real>2240</real>
+			<real>2460</real>
 		</dict>
 		<key>208EE3C1-E184-4097-9792-FF809D44F480</key>
 		<dict>
@@ -1665,12 +1593,12 @@ end alfred_script</string>
 		<key>22C5FA7A-69D5-4418-A61F-3DF5BA9EB41E</key>
 		<dict>
 			<key>ypos</key>
-			<real>2960</real>
+			<real>3120</real>
 		</dict>
 		<key>25DB03E6-ECFB-4F0D-ADAE-02BADB186113</key>
 		<dict>
 			<key>ypos</key>
-			<real>3440</real>
+			<real>3560</real>
 		</dict>
 		<key>274DCAB1-B2B5-4CAC-A685-A12696AA1B6C</key>
 		<dict>
@@ -1680,12 +1608,12 @@ end alfred_script</string>
 		<key>276477B2-9513-4A4A-B76A-5F444DF8C59C</key>
 		<dict>
 			<key>ypos</key>
-			<real>3320</real>
+			<real>3450</real>
 		</dict>
 		<key>31B19EDA-E80C-4B5B-B5F3-AE92CA2232A4</key>
 		<dict>
 			<key>ypos</key>
-			<real>2120</real>
+			<real>2350</real>
 		</dict>
 		<key>356AED01-E011-456B-9231-7D0A73C28D9D</key>
 		<dict>
@@ -1700,42 +1628,32 @@ end alfred_script</string>
 		<key>3D75A4D3-F3C8-4403-B47B-35DD3CD40073</key>
 		<dict>
 			<key>ypos</key>
-			<real>3080</real>
+			<real>3230</real>
 		</dict>
 		<key>4055420A-9659-4812-A5DC-DDB93B4C2320</key>
 		<dict>
 			<key>ypos</key>
-			<real>2600</real>
-		</dict>
-		<key>49CEBF49-5045-4AD6-91E0-18BCDB66E15B</key>
-		<dict>
-			<key>ypos</key>
-			<real>3570</real>
+			<real>2790</real>
 		</dict>
 		<key>4FBECBDE-DE6F-4731-B746-A62CB4C85937</key>
 		<dict>
 			<key>ypos</key>
-			<real>2120</real>
+			<real>2350</real>
 		</dict>
 		<key>592859BB-4688-46D9-A27F-F33D80A7ECF7</key>
 		<dict>
 			<key>ypos</key>
-			<real>3440</real>
+			<real>3560</real>
 		</dict>
 		<key>5BD9D32D-393F-4D72-B2C4-944AA6DB3B9A</key>
 		<dict>
 			<key>ypos</key>
-			<real>2360</real>
+			<real>2570</real>
 		</dict>
 		<key>5E2CFF02-1544-4B94-AB1A-2DD8F7AC0BEE</key>
 		<dict>
 			<key>ypos</key>
-			<real>2720</real>
-		</dict>
-		<key>5F19CE21-562B-478C-9654-B8852792A5FF</key>
-		<dict>
-			<key>ypos</key>
-			<real>190</real>
+			<real>2900</real>
 		</dict>
 		<key>626F3862-481A-489E-BBF3-B70FBE498D29</key>
 		<dict>
@@ -1745,7 +1663,7 @@ end alfred_script</string>
 		<key>62BDC9F0-3E2D-440B-8032-FD58C4825F65</key>
 		<dict>
 			<key>ypos</key>
-			<real>2840</real>
+			<real>3010</real>
 		</dict>
 		<key>63F60794-BB56-4415-9372-BAF974C3A7E1</key>
 		<dict>
@@ -1760,32 +1678,27 @@ end alfred_script</string>
 		<key>6B14FAC7-A04A-4A6B-B444-C8482B3C6E8F</key>
 		<dict>
 			<key>ypos</key>
-			<real>2720</real>
-		</dict>
-		<key>743E9AC7-F549-4B6F-B54A-066F75C915B6</key>
-		<dict>
-			<key>ypos</key>
-			<real>3570</real>
+			<real>2900</real>
 		</dict>
 		<key>75ECAA6E-EBBD-4801-B59A-31BBE8921BF2</key>
 		<dict>
 			<key>ypos</key>
-			<real>2000</real>
+			<real>2240</real>
 		</dict>
 		<key>7ACE717F-19A5-4B65-A37B-6D5B9B8FD1A6</key>
 		<dict>
 			<key>ypos</key>
-			<real>3200</real>
+			<real>3340</real>
 		</dict>
 		<key>849F6250-4AFA-470A-BDFC-6255873093A9</key>
 		<dict>
 			<key>ypos</key>
-			<real>2000</real>
+			<real>2240</real>
 		</dict>
 		<key>8B237BA2-9686-46CC-A9E1-D8EE94F8D0EA</key>
 		<dict>
 			<key>ypos</key>
-			<real>2840</real>
+			<real>3010</real>
 		</dict>
 		<key>97142E52-BD57-4006-B181-9B9C02808D6D</key>
 		<dict>
@@ -1795,32 +1708,27 @@ end alfred_script</string>
 		<key>9A1606F4-8C47-4F48-826B-A808F2FD0904</key>
 		<dict>
 			<key>ypos</key>
-			<real>2480</real>
-		</dict>
-		<key>9A65D19A-199C-41BC-8CE0-9C7F2B9ECCA3</key>
-		<dict>
-			<key>ypos</key>
-			<real>60</real>
+			<real>2680</real>
 		</dict>
 		<key>A2339DAE-1240-42BE-A97B-B3C914E30642</key>
 		<dict>
 			<key>ypos</key>
-			<real>1890</real>
+			<real>2050</real>
 		</dict>
 		<key>A6C29D91-5BAC-4B18-A4DF-5E17E04EEB55</key>
 		<dict>
 			<key>ypos</key>
-			<real>3200</real>
+			<real>3340</real>
 		</dict>
 		<key>BAD284E1-C73B-4D99-AEBA-4B01A4024F66</key>
 		<dict>
 			<key>ypos</key>
 			<real>850</real>
 		</dict>
-		<key>BD05D0F4-CD1A-4964-8A2A-9259C93AFBA8</key>
+		<key>BEA73019-1705-4534-8CAF-78020F39EEC6</key>
 		<dict>
 			<key>ypos</key>
-			<real>180</real>
+			<real>2000</real>
 		</dict>
 		<key>C0A119F6-86AC-45F2-8AC4-DA7EF955A8A3</key>
 		<dict>
@@ -1830,22 +1738,22 @@ end alfred_script</string>
 		<key>C12469E1-2C1C-45F3-9B73-F1B5059304B1</key>
 		<dict>
 			<key>ypos</key>
+			<real>1870</real>
+		</dict>
+		<key>C4CD1D89-F028-43EA-9ECD-FB0BB81EB498</key>
+		<dict>
+			<key>ypos</key>
 			<real>1890</real>
 		</dict>
 		<key>C7B88296-D588-4559-8661-544F0B0FFED4</key>
 		<dict>
 			<key>ypos</key>
-			<real>3320</real>
+			<real>3450</real>
 		</dict>
 		<key>C7F283D6-7AF4-447C-B3AE-8A2414806372</key>
 		<dict>
 			<key>ypos</key>
 			<real>1450</real>
-		</dict>
-		<key>CB209160-097A-4DF4-AA63-EB05C3BC51A3</key>
-		<dict>
-			<key>ypos</key>
-			<real>1330</real>
 		</dict>
 		<key>D3971ECE-8137-4855-BEC7-23FF82516DF3</key>
 		<dict>
@@ -1860,7 +1768,7 @@ end alfred_script</string>
 		<key>DBD56279-86B0-4BF3-B8D2-EFFE4088AFD0</key>
 		<dict>
 			<key>ypos</key>
-			<real>2480</real>
+			<real>2680</real>
 		</dict>
 		<key>E429FA03-AAE3-4888-8BB1-A9346B5CDACB</key>
 		<dict>
@@ -1868,6 +1776,16 @@ end alfred_script</string>
 			<real>1740</real>
 		</dict>
 		<key>EB2D357B-7C1C-4E1F-8104-19DFBD913547</key>
+		<dict>
+			<key>ypos</key>
+			<real>1580</real>
+		</dict>
+		<key>EBB7A386-7C53-44D4-AF02-8339BA2FADF5</key>
+		<dict>
+			<key>ypos</key>
+			<real>2120</real>
+		</dict>
+		<key>ECFF7111-C050-4D7C-B35F-95F1E927139C</key>
 		<dict>
 			<key>ypos</key>
 			<real>1580</real>
@@ -1880,12 +1798,12 @@ end alfred_script</string>
 		<key>EFE05B82-2485-42D3-BBDB-C60D087D49DA</key>
 		<dict>
 			<key>ypos</key>
-			<real>2600</real>
+			<real>2790</real>
 		</dict>
 		<key>F18E3625-DBFE-4291-9A2A-A072AF57AAF4</key>
 		<dict>
 			<key>ypos</key>
-			<real>1430</real>
+			<real>1330</real>
 		</dict>
 		<key>F616C229-EB73-46F3-AE5B-BD07D2024DCB</key>
 		<dict>
@@ -1900,7 +1818,7 @@ end alfred_script</string>
 		<key>FDB3891B-F316-4A13-B806-83132723A33A</key>
 		<dict>
 			<key>ypos</key>
-			<real>3080</real>
+			<real>3230</real>
 		</dict>
 	</dict>
 	<key>webaddress</key>

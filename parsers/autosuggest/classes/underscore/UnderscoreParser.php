@@ -34,7 +34,6 @@ Class UnderscoreParser extends AutoSuggestParser {
                 if ($node->hasAttributes() || ($node->nodeType != XML_TEXT_NODE && $node->nodeName != "b")) {
                     continue;
                 }
-
                 $text = $text . $node->nodeValue;
             }
 
@@ -42,9 +41,6 @@ Class UnderscoreParser extends AutoSuggestParser {
             $this->addResult($url, $title, $code . " " . $alias .  " " . strip_tags($text));
           }
         }
-//            $description = strip_tags(implode($val->sectionHTMLs, ""));
-//            $description = str_replace("Summary\n", "", $description);
-
     }
 
     public function update() {
