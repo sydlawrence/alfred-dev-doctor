@@ -14,18 +14,32 @@ Class UnderscoreParser extends AutoSuggestParser {
 
         $xpath = new DOMXPath($doc);
 
-//        $elems = $xpath->query("/html/body/div[@id='sidebar']/ul[@class='toc_section']/li/a");
         $elems = $xpath->query("/html/body/div[@class='container']/div[@id='documentation']/p[@id]");
 
         if (!is_null($elems)) {
           foreach ($elems as $el) {
 
-            $title = $el->getAttribute("id");
+            $title = $xpath->query("@id", $el)->item(0)->nodeValue;
+            $code = $xpath->query("code", $el)->item(0)->nodeValue;
+            $alias = "";
+            $text = "";
 
-            $code = $el->getElementsByTagName("code")->item(0)->nodeValue;
+            $alias_nodes = $xpath->query("span", $el);
+            if(!is_null($alias_nodes) && $alias_nodes->length > 0) {
+                $alias = $alias_nodes->item(0)->nodeValue;
+            }
+            
+            // get text and <b> node only
+            foreach($el->childNodes as $node) {
+                if ($node->hasAttributes() || ($node->nodeType != XML_TEXT_NODE && $node->nodeName != "b")) {
+                    continue;
+                }
+
+                $text = $text . $node->nodeValue;
+            }
 
             $url = "http://underscores.org/#" . $title;
-            $this->addResult($url, $title, $code);
+            $this->addResult($url, $title, $code . " " . $alias .  " " . strip_tags($text));
           }
         }
 //            $description = strip_tags(implode($val->sectionHTMLs, ""));
