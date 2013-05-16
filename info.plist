@@ -162,17 +162,6 @@
 				<string></string>
 			</dict>
 		</array>
-		<key>63F60794-BB56-4415-9372-BAF974C3A7E1</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-			</dict>
-		</array>
 		<key>6A9D8DE3-A5C8-4243-8D60-85591A2FA478</key>
 		<array>
 			<dict>
@@ -189,6 +178,17 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>5E2CFF02-1544-4B94-AB1A-2DD8F7AC0BEE</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>743E9AC7-F549-4B6F-B54A-066F75C915B6</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -455,6 +455,36 @@ end alfred_script</string>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
+				<integer>63</integer>
+				<key>keyword</key>
+				<string>man</string>
+				<key>runningsubtext</key>
+				<string>Waiting for data through the intertubes</string>
+				<key>script</key>
+				<string>$query = "{query}";
+$type = "man";
+
+require_once('search.php');</string>
+				<key>subtext</key>
+				<string>With autosuggest</string>
+				<key>title</key>
+				<string>Search Man Pages</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>9A65D19A-199C-41BC-8CE0-9C7F2B9ECCA3</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
 				<integer>127</integer>
 				<key>type</key>
 				<integer>0</integer>
@@ -465,37 +495,6 @@ end alfred_script</string>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>743E9AC7-F549-4B6F-B54A-066F75C915B6</string>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>escaping</key>
-				<integer>36</integer>
-				<key>keyword</key>
-				<string>php</string>
-				<key>runningsubtext</key>
-				<string>Waiting for data through the intertubes</string>
-				<key>script</key>
-				<string>$query = "{query}";
-$type = "php";
-
-require_once('search.php');
-</string>
-				<key>subtext</key>
-				<string>With autosuggest</string>
-				<key>title</key>
-				<string>Search PHP Docs</string>
-				<key>type</key>
-				<integer>1</integer>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>63F60794-BB56-4415-9372-BAF974C3A7E1</string>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -526,36 +525,6 @@ require_once('search.php');</string>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>6A9D8DE3-A5C8-4243-8D60-85591A2FA478</string>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>escaping</key>
-				<integer>63</integer>
-				<key>keyword</key>
-				<string>man</string>
-				<key>runningsubtext</key>
-				<string>Waiting for data through the intertubes</string>
-				<key>script</key>
-				<string>$query = "{query}";
-$type = "man";
-
-require_once('search.php');</string>
-				<key>subtext</key>
-				<string>With autosuggest</string>
-				<key>title</key>
-				<string>Search Man Pages</string>
-				<key>type</key>
-				<integer>1</integer>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>9A65D19A-199C-41BC-8CE0-9C7F2B9ECCA3</string>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -627,6 +596,8 @@ require_once('search.php');</string>
 				<integer>0</integer>
 				<key>keyword</key>
 				<string>.net</string>
+				<key>script</key>
+				<string></string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -1805,7 +1776,7 @@ end tell</string>
 		<key>208EE3C1-E184-4097-9792-FF809D44F480</key>
 		<dict>
 			<key>ypos</key>
-			<real>450</real>
+			<real>240</real>
 		</dict>
 		<key>22C5FA7A-69D5-4418-A61F-3DF5BA9EB41E</key>
 		<dict>
@@ -1840,7 +1811,7 @@ end tell</string>
 		<key>356AED01-E011-456B-9231-7D0A73C28D9D</key>
 		<dict>
 			<key>ypos</key>
-			<real>340</real>
+			<real>200</real>
 		</dict>
 		<key>39205812-4FA4-44B6-95B7-0A999350D053</key>
 		<dict>
@@ -1887,7 +1858,7 @@ end tell</string>
 		<key>626F3862-481A-489E-BBF3-B70FBE498D29</key>
 		<dict>
 			<key>ypos</key>
-			<real>560</real>
+			<real>280</real>
 		</dict>
 		<key>62814FDB-BA73-4A03-9222-976E3D6822A8</key>
 		<dict>
@@ -1902,12 +1873,12 @@ end tell</string>
 		<key>63F60794-BB56-4415-9372-BAF974C3A7E1</key>
 		<dict>
 			<key>ypos</key>
-			<real>10</real>
+			<real>80</real>
 		</dict>
 		<key>6A9D8DE3-A5C8-4243-8D60-85591A2FA478</key>
 		<dict>
 			<key>ypos</key>
-			<real>120</real>
+			<real>80</real>
 		</dict>
 		<key>6B14FAC7-A04A-4A6B-B444-C8482B3C6E8F</key>
 		<dict>
@@ -1915,7 +1886,10 @@ end tell</string>
 			<real>2900</real>
 		</dict>
 		<key>743E9AC7-F549-4B6F-B54A-066F75C915B6</key>
-		<dict/>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
 		<key>75ECAA6E-EBBD-4801-B59A-31BBE8921BF2</key>
 		<dict>
 			<key>ypos</key>
@@ -1951,10 +1925,15 @@ end tell</string>
 			<key>ypos</key>
 			<real>2680</real>
 		</dict>
+		<key>9A65D19A-199C-41BC-8CE0-9C7F2B9ECCA3</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
 		<key>A0169C24-0256-4ADA-9A7B-EE67B9B58B87</key>
 		<dict>
 			<key>ypos</key>
-			<real>230</real>
+			<real>160</real>
 		</dict>
 		<key>A2339DAE-1240-42BE-A97B-B3C914E30642</key>
 		<dict>
@@ -2069,7 +2048,7 @@ end tell</string>
 		<key>FAC95FEC-32B0-4455-9D61-4EB52880A4CD</key>
 		<dict>
 			<key>ypos</key>
-			<real>670</real>
+			<real>360</real>
 		</dict>
 		<key>FDB3891B-F316-4A13-B806-83132723A33A</key>
 		<dict>
