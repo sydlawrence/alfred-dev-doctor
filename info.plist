@@ -39,6 +39,17 @@
 				<string></string>
 			</dict>
 		</array>
+		<key>1DEE9EF3-909D-4C3C-9414-29D75F87EFD5</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>39205812-4FA4-44B6-95B7-0A999350D053</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
 		<key>208EE3C1-E184-4097-9792-FF809D44F480</key>
 		<array>
 			<dict>
@@ -66,6 +77,17 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>BD05D0F4-CD1A-4964-8A2A-9259C93AFBA8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>28602741-90DE-478E-A8AD-AF15201891D9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>BCEC2501-AAB5-4677-B807-2D5E01399A2B</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -270,6 +292,17 @@
 				<string></string>
 			</dict>
 		</array>
+		<key>A0169C24-0256-4ADA-9A7B-EE67B9B58B87</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>BD05D0F4-CD1A-4964-8A2A-9259C93AFBA8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
 		<key>A2339DAE-1240-42BE-A97B-B3C914E30642</key>
 		<array>
 			<dict>
@@ -283,6 +316,17 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>C12469E1-2C1C-45F3-9B73-F1B5059304B1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>BA9343D1-C789-4A16-A361-90A3DEAAF2BE</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>8819557A-EEFB-4745-B29E-AE0F233B29CD</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -574,6 +618,37 @@ require_once('search.php');</string>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
+				<integer>36</integer>
+				<key>keyword</key>
+				<string>sf2api</string>
+				<key>runningsubtext</key>
+				<string>Searching Symfony 2.2 API Documentation</string>
+				<key>script</key>
+				<string>$query = "{query}";
+$type = "sf2";
+
+require_once('search.php');
+</string>
+				<key>subtext</key>
+				<string>With autosuggest</string>
+				<key>title</key>
+				<string>Search Symfony API 2 Docs</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>A0169C24-0256-4ADA-9A7B-EE67B9B58B87</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
 				<integer>63</integer>
 				<key>keyword</key>
 				<string>jq</string>
@@ -604,22 +679,11 @@ require_once('search.php');</string>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
-				<integer>63</integer>
+				<integer>0</integer>
 				<key>keyword</key>
-				<string>jquery</string>
-				<key>runningsubtext</key>
-				<string>Waiting for data through the intertubes</string>
-				<key>script</key>
-				<string>$query = "{query}";
-$type = "jquery";
-
-require_once('search.php');</string>
-				<key>subtext</key>
-				<string>With autosuggest</string>
-				<key>title</key>
-				<string>Search jQuery Docs</string>
+				<string>.net</string>
 				<key>type</key>
-				<integer>1</integer>
+				<integer>0</integer>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -1040,7 +1104,10 @@ require_once('search.php');</string>
 				<key>escaping</key>
 				<integer>63</integer>
 				<key>script</key>
-				<string>php updateall.php</string>
+				<string>$query = "{query}";
+$type = "jquery";
+
+require_once('search.php');</string>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
@@ -1340,9 +1407,9 @@ require_once('search.php');</string>
 			delay 0.1
 			set organizer to window 1
 		end if
-	
+
 		click radio button 2 of radio group 1 of splitter group 1 of window 1
-	
+
 		-- Move focus to the search field
 		set searchField to text field 1 of splitter group 1 of organizer
 		set searchField's focused to true
@@ -1525,53 +1592,13 @@ end tell</string>
 			<key>config</key>
 			<dict>
 				<key>anchorfields</key>
-				<true/>
+				<false/>
 				<key>daterange</key>
 				<integer>0</integer>
-				<key>fields</key>
-				<array>
-					<dict>
-						<key>field</key>
-						<string>kMDItemDisplayName</string>
-						<key>not</key>
-						<false/>
-						<key>split</key>
-						<true/>
-						<key>value</key>
-						<string>{query}</string>
-						<key>words</key>
-						<true/>
-					</dict>
-					<dict>
-						<key>field</key>
-						<string>kMDItemFinderComment</string>
-						<key>not</key>
-						<false/>
-						<key>split</key>
-						<true/>
-						<key>value</key>
-						<string>{query}</string>
-						<key>words</key>
-						<true/>
-					</dict>
-				</array>
 				<key>includesystem</key>
 				<false/>
 				<key>keyword</key>
-				<string>optimise</string>
-				<key>scopes</key>
-				<array/>
-				<key>subtext</key>
-				<string>I'm English, deal with it.</string>
-				<key>title</key>
-				<string>Optimise your images (files or folders)</string>
-				<key>types</key>
-				<array>
-					<string>com.compuserve.gif</string>
-					<string>public.folder</string>
-					<string>public.jpeg</string>
-					<string>public.png</string>
-				</array>
+				<string>flask</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -1674,6 +1701,108 @@ require_once('plugin.php');
 			<key>uid</key>
 			<string>743E9AC7-F549-4B6F-B54A-066F75C915B6</string>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>sf2</string>
+				<key>subtext</key>
+				<string>Searching Symfony.com Documentation Site</string>
+				<key>text</key>
+				<string>Symfony2 Documentation</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>1DEE9EF3-909D-4C3C-9414-29D75F87EFD5</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>plusspaces</key>
+				<false/>
+				<key>url</key>
+				<string>http://symfony.com/search?version=master&amp;q={query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>39205812-4FA4-44B6-95B7-0A999350D053</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>plusspaces</key>
+				<false/>
+				<key>url</key>
+				<string>https://packagist.org/search/?q={query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>BCEC2501-AAB5-4677-B807-2D5E01399A2B</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>pac</string>
+				<key>subtext</key>
+				<string>PHP package manager repository</string>
+				<key>text</key>
+				<string>Packagist</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>28602741-90DE-478E-A8AD-AF15201891D9</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>plusspaces</key>
+				<false/>
+				<key>url</key>
+				<string>http://knpbundles.com/search?q={query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>8819557A-EEFB-4745-B29E-AE0F233B29CD</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>knp</string>
+				<key>subtext</key>
+				<string>Community directory of bundles</string>
+				<key>text</key>
+				<string>KnpBundles</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>BA9343D1-C789-4A16-A361-90A3DEAAF2BE</string>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -1704,10 +1833,15 @@ require_once('plugin.php');
 			<key>ypos</key>
 			<real>2240</real>
 		</dict>
+		<key>1DEE9EF3-909D-4C3C-9414-29D75F87EFD5</key>
+		<dict>
+			<key>ypos</key>
+			<real>3690</real>
+		</dict>
 		<key>208EE3C1-E184-4097-9792-FF809D44F480</key>
 		<dict>
 			<key>ypos</key>
-			<real>370</real>
+			<real>450</real>
 		</dict>
 		<key>22C5FA7A-69D5-4418-A61F-3DF5BA9EB41E</key>
 		<dict>
@@ -1722,12 +1856,17 @@ require_once('plugin.php');
 		<key>274DCAB1-B2B5-4CAC-A685-A12696AA1B6C</key>
 		<dict>
 			<key>ypos</key>
-			<real>730</real>
+			<real>780</real>
 		</dict>
 		<key>276477B2-9513-4A4A-B76A-5F444DF8C59C</key>
 		<dict>
 			<key>ypos</key>
 			<real>3320</real>
+		</dict>
+		<key>28602741-90DE-478E-A8AD-AF15201891D9</key>
+		<dict>
+			<key>ypos</key>
+			<real>3810</real>
 		</dict>
 		<key>31B19EDA-E80C-4B5B-B5F3-AE92CA2232A4</key>
 		<dict>
@@ -1737,7 +1876,12 @@ require_once('plugin.php');
 		<key>356AED01-E011-456B-9231-7D0A73C28D9D</key>
 		<dict>
 			<key>ypos</key>
-			<real>250</real>
+			<real>340</real>
+		</dict>
+		<key>39205812-4FA4-44B6-95B7-0A999350D053</key>
+		<dict>
+			<key>ypos</key>
+			<real>3690</real>
 		</dict>
 		<key>395489AC-F97D-4427-9E55-36B92E3044B7</key>
 		<dict>
@@ -1787,7 +1931,12 @@ require_once('plugin.php');
 		<key>626F3862-481A-489E-BBF3-B70FBE498D29</key>
 		<dict>
 			<key>ypos</key>
-			<real>490</real>
+			<real>560</real>
+		</dict>
+		<key>62814FDB-BA73-4A03-9222-976E3D6822A8</key>
+		<dict>
+			<key>ypos</key>
+			<real>3810</real>
 		</dict>
 		<key>62BDC9F0-3E2D-440B-8032-FD58C4825F65</key>
 		<dict>
@@ -1802,7 +1951,7 @@ require_once('plugin.php');
 		<key>6A9D8DE3-A5C8-4243-8D60-85591A2FA478</key>
 		<dict>
 			<key>ypos</key>
-			<real>130</real>
+			<real>120</real>
 		</dict>
 		<key>6B14FAC7-A04A-4A6B-B444-C8482B3C6E8F</key>
 		<dict>
@@ -1829,6 +1978,11 @@ require_once('plugin.php');
 			<key>ypos</key>
 			<real>2000</real>
 		</dict>
+		<key>8819557A-EEFB-4745-B29E-AE0F233B29CD</key>
+		<dict>
+			<key>ypos</key>
+			<real>3940</real>
+		</dict>
 		<key>8B237BA2-9686-46CC-A9E1-D8EE94F8D0EA</key>
 		<dict>
 			<key>ypos</key>
@@ -1849,6 +2003,11 @@ require_once('plugin.php');
 			<key>ypos</key>
 			<real>60</real>
 		</dict>
+		<key>A0169C24-0256-4ADA-9A7B-EE67B9B58B87</key>
+		<dict>
+			<key>ypos</key>
+			<real>230</real>
+		</dict>
 		<key>A2339DAE-1240-42BE-A97B-B3C914E30642</key>
 		<dict>
 			<key>ypos</key>
@@ -1859,10 +2018,20 @@ require_once('plugin.php');
 			<key>ypos</key>
 			<real>3200</real>
 		</dict>
+		<key>BA9343D1-C789-4A16-A361-90A3DEAAF2BE</key>
+		<dict>
+			<key>ypos</key>
+			<real>3940</real>
+		</dict>
 		<key>BAD284E1-C73B-4D99-AEBA-4B01A4024F66</key>
 		<dict>
 			<key>ypos</key>
-			<real>850</real>
+			<real>890</real>
+		</dict>
+		<key>BCEC2501-AAB5-4677-B807-2D5E01399A2B</key>
+		<dict>
+			<key>ypos</key>
+			<real>3810</real>
 		</dict>
 		<key>BD05D0F4-CD1A-4964-8A2A-9259C93AFBA8</key>
 		<dict>
@@ -1897,12 +2066,12 @@ require_once('plugin.php');
 		<key>D3971ECE-8137-4855-BEC7-23FF82516DF3</key>
 		<dict>
 			<key>ypos</key>
-			<real>970</real>
+			<real>1000</real>
 		</dict>
 		<key>D757A534-E31C-4D19-8168-411768ED40D8</key>
 		<dict>
 			<key>ypos</key>
-			<real>1090</real>
+			<real>1110</real>
 		</dict>
 		<key>DBD56279-86B0-4BF3-B8D2-EFFE4088AFD0</key>
 		<dict>
@@ -1922,7 +2091,7 @@ require_once('plugin.php');
 		<key>ED2574D4-3617-4F78-BEAB-294390C479E2</key>
 		<dict>
 			<key>ypos</key>
-			<real>1210</real>
+			<real>1220</real>
 		</dict>
 		<key>EFE05B82-2485-42D3-BBDB-C60D087D49DA</key>
 		<dict>
@@ -1942,7 +2111,7 @@ require_once('plugin.php');
 		<key>FAC95FEC-32B0-4455-9D61-4EB52880A4CD</key>
 		<dict>
 			<key>ypos</key>
-			<real>610</real>
+			<real>670</real>
 		</dict>
 		<key>FDB3891B-F316-4A13-B806-83132723A33A</key>
 		<dict>
