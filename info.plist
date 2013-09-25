@@ -595,7 +595,7 @@ require_once('search.php');</string>
 				<key>escaping</key>
 				<integer>0</integer>
 				<key>keyword</key>
-				<string>.net</string>
+				<string>msdn</string>
 				<key>script</key>
 				<string></string>
 				<key>type</key>
@@ -1249,9 +1249,9 @@ require_once('search.php');
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
-				<string>.net</string>
+				<string>msdn</string>
 				<key>text</key>
-				<string>Search .net docs</string>
+				<string>Search MSDN docs</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
